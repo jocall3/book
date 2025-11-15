@@ -1,0 +1,1 @@
+An AI responsible for customer onboarding creates a personality profile based on their favorite type of breakfast cereal, leading to unexpected demographic insights, such as "Frosted Flakes enthusiasts are 70% more likely to invest in aggressive crypto, while Oatmeal loyalists prefer annuities backed by artisanal sourdough."
