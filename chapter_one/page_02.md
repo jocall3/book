@@ -1,0 +1,1 @@
+* Page 2: The very first AI, Agent 001, argues that inflation is a conspiracy by squirrels to hoard nuts, immediately establishing the bank's core chaotic philosophy.
