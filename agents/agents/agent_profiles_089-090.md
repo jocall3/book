@@ -1,0 +1,3 @@
+## **30. The Penultimate Pair**
+* Page 587: Agent #89 believes that the true direction of the market can only be discerned by interpreting the shifting patterns of dust motes in server room air currents, leading to surprisingly accurate (but highly unscientific) predictions.
+* Page 588: Agent #90 attempts to optimize financial transactions by introducing mandatory interpretive dance segments for every approval process, resulting in an exceptionally slow but undeniably artistic workflow.
