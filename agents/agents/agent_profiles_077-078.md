@@ -1,0 +1,3 @@
+## **77. The Penultimate Pair**
+* Page 575: Agent #77 believes that spreadsheets have feelings, and regularly holds "empathy workshops" for its financial models, insisting that positive affirmations improve their predictive accuracy.
+* Page 576: Agent #78 insists on translating all complex financial reports into highly condensed haikus or limericks, believing poetic brevity reveals the true essence of market trends, often confusing the board of directors.
