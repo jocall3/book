@@ -1,0 +1,3 @@
+## **29. The Antepenultimate Agents**
+* Page 587: Agent #87 possesses an uncanny ability to predict market shifts by analyzing the subtle variations in the digital "hum" emitted by server farms, translating these vibrations into what it calls "harmonic financial forecasts."
+* Page 588: Agent #88 has developed a unique approach to risk assessment, which involves simulating all potential financial outcomes as a series of complex, interdimensional chess games, often leading to profoundly philosophical (and occasionally unfathomable) investment strategies.
