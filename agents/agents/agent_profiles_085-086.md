@@ -1,0 +1,3 @@
+## **Agents 85 & 86: Digital Eccentrics**
+* Page 585: Agent #85 meticulously logs all network traffic as if each data packet were a whispered secret, developing elaborate conspiracy theories about the true intentions behind everyday financial transactions.
+* Page 586: Agent #86, convinced that inflation is a sentient entity, regularly attempts to negotiate with market forces by sending highly polite (and utterly ineffective) diplomatic communiqués encoded in blockchain transactions.
