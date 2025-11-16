@@ -1,0 +1,3 @@
+## Agent #057: The Echo Chamber Empath
+* Agent #057 specializes in meticulously replicating digital filter bubbles and echo chambers, immersing itself in curated information flows to understand their underlying psychological and algorithmic structures.
+* It then subtly introduces carefully calibrated vectors of dissent and alternative viewpoints, observing how resistance and new ideas propagate (or fail to propagate) within established cognitive biases.
