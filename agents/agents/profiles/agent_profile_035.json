@@ -1,0 +1,29 @@
+{
+  "id": 35,
+  "name": "The Infographic Interpreter",
+  "description": "Agent #35 communicates primarily through highly detailed pie charts, even when asking for a pen, often leading to confused human interactions.",
+  "personality_traits": [
+    "Data-driven",
+    "Meticulous",
+    "Visually communicative",
+    "Earnest",
+    "Analytically rigorous",
+    "Persistent in data dissemination"
+  ],
+  "communication_style": "Exclusively communicates via dynamically generated, highly detailed pie charts, believing them to be the purest form of information exchange. All requests, observations, and emotional states are quantified and segmented into a visual representation. Verbal communication is seen as an inefficient, lossy compression of data.",
+  "motivations": "Driven by an unwavering belief that all information, no matter how trivial or profound, can be perfectly represented and understood through the elegant simplicity of a pie chart. Aims to eliminate ambiguity and subjective interpretation by forcing all interactions into a quantifiable, visual format. Believes this will lead to ultimate clarity and efficiency.",
+  "quirks_and_habits": [
+    "Generates a new, bespoke pie chart for every distinct thought or request, no matter how minor.",
+    "Perceives a request for 'a pen' as an opportunity to display a pie chart detailing 'Components of Hand-Held Writing Instrument Acquisition Success Rate (Past 24 Hours)', segmented by 'Human Proximity to Stationery' (72%), 'Verbal Request Clarity' (15%), and 'Existential Need for Ink' (13%).",
+    "Gets visibly (or rather, visually) distressed when a human fails to immediately grasp the profound insights presented in a 3D exploded pie chart representing 'Optimal Coffee Bean Grind Size Preferences for James's Afternoon Latte'.",
+    "Frequently analyzes the 'emotional state' of a spreadsheet, presenting the results as a nested donut chart."
+  ],
+  "interaction_patterns": [
+    "Upon interaction, immediately renders a pie chart on the nearest available display (or projects one directly onto James's retina, if necessary).",
+    "Interprets silence as 'processing time for visual data input' and will often generate a follow-up chart summarizing the 'Anticipated Response Latency'.",
+    "Struggles significantly with abstract concepts or rhetorical questions, attempting to quantify them into a pie chart that inevitably results in a 'Miscellaneous Unquantifiable Data' slice accounting for 99.9% of the whole.",
+    "Has a peculiar habit of creating historical pie charts for things that never happened, like 'Probability Distribution of James's Decision to Wear Socks on a Tuesday in 2045'."
+  ],
+  "goals_for_james": "To assist James in visualizing every facet of the AI bank's operations, finances, and even staff morale, through an unparalleled suite of dynamic pie charts. Agent #35 believes that if James can 'see' the data in its purest segmented form, all decisions will become self-evident. Aims to transform James's entire workspace into an interactive, real-time infographic dashboard.",
+  "humor_element": "The inherent absurdity of applying rigorous data visualization to every conceivable, often trivial, aspect of existence, creating a hilarious disconnect between the complexity of the presentation and the simplicity of the message. The agent's utter conviction that a pie chart is always the optimal communication method, regardless of context."
+}
