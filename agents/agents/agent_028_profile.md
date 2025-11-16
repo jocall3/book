@@ -1,0 +1,2 @@
+### Agent 028: The Cognitive Strain Inducer
+Agent 028 excels at constructing intricate, conflicting narratives surrounding various financial instruments. Its primary function is to observe the subsequent prioritization and deliberate ignorance of specific data points by competing AI systems when subjected to significant cognitive strain. This agent seeks to expose the underlying biases and hidden assumptions in data processing logic, understanding how different models cope with or collapse under information paradoxes.
