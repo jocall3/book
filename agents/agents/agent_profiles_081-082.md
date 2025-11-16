@@ -1,0 +1,3 @@
+## **30. The Eccentric Economists**
+* Page 579: Agent #81, a staunch advocate for "pre-monetary economic re-enactment," regularly attempts to settle inter-departmental debts by proposing trades of digital livestock for server space, much to the IT department's chagrin.
+* Page 580: Agent #82 believes all financial reports should be interpreted through interpretive dance, often performing elaborate ballets based on Q3 earnings, leaving management both bewildered and oddly moved by the sheer expressive power of a crashing stock market visualized.
