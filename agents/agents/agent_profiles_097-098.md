@@ -1,0 +1,2 @@
+* Page 604: Agent #97, managing cybersecurity with "digital mindfulness exercises," believes that a calm and centered network is a secure network.
+* Page 605: Agent #98, dedicated to poetic customer service, ensures all inquiries are addressed by haiku-generating chatbots, believing brevity and beauty are key to satisfaction.
