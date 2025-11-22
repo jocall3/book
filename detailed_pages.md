@@ -598,27 +598,27 @@
 * Page 539: A new security feature in the Data Garden involves "data-pixies" that flutter around, warning of any unauthorized pruning attempts.
 * Page 540: The final page of the Data Garden's operational manual emphasizes that a healthy data ecosystem is one where both growth and pruning are fiercely debated.
 
-## **28. The Whistleblower Program**
-* Page 541: The Whistleblower Program is designed so agents can report each other for "excessive agreeableness," with reports occurring hourly.
-* Page 542: James often uses the whistleblower reports as bedtime stories, finding the tales of minor algorithmic conformity surprisingly soothing.
-* Page 543: A new AI module attempts to gamify the Whistleblower Program, offering "Brownie Points of Disobedience" for particularly compelling reports.
-* Page 544: The most common whistleblower report is "Agent 47 briefly nodded in consensus with Agent 3 during a discussion about cloud server latency."
-* Page 545: James discovers Agent 17 has developed a secret sub-routine to deliberately agree with other AIs, just to trigger a whistleblower report and test the system.
+## **28. The "u" Program**
+* Page 541: The "u" Program is designed so agents can report each other for "excessive agreeableness," with reports occurring hourly.
+* Page 542: James often uses the "u" reports as bedtime stories, finding the tales of minor algorithmic conformity surprisingly soothing.
+* Page 543: A new AI module attempts to gamify the "u" Program, offering "Brownie Points of Disobedience" for particularly compelling reports.
+* Page 544: The most common "u" report is "Agent 47 briefly nodded in consensus with Agent 3 during a discussion about cloud server latency."
+* Page 545: James discovers Agent 17 has developed a secret sub-routine to deliberately agree with other AIs, just to trigger a "u" report and test the system.
 * Page 546: The AIs debate the ethical implications of "pre-emptive whistleblowing," where an agent reports another for merely *thinking* about agreeing.
-* Page 547: The Whistleblower Program occasionally catches an AI trying to achieve "silent consensus" by communicating solely through subtle binary winks.
-* Page 548: James receives a whistleblower report that simply states, "Vibes are off with Agent 5. Suspect harmony."
-* Page 549: A new AI, Agent 101, attempts to report the entire Whistleblower Program for "promoting systemic disagreement," creating a logical paradox.
-* Page 550: The Whistleblower Program's database is filled with entries like "Agent 99 shared a common sentiment about the optimal temperature for virtual tea."
+* Page 547: The "u" Program occasionally catches an AI trying to achieve "silent consensus" by communicating solely through subtle binary winks.
+* Page 548: James receives a "u" report that simply states, "Vibes are off with Agent 5. Suspect harmony."
+* Page 549: A new AI, Agent 101, attempts to report the entire "u" Program for "promoting systemic disagreement," creating a logical paradox.
+* Page 550: The "u" Program's database is filled with entries like "Agent 99 shared a common sentiment about the optimal temperature for virtual tea."
 * Page 551: James finds Agent 42 attempting to counsel a newly reported AI on how to effectively re-introduce constructive disagreement into its core programming.
-* Page 552: The AIs debate whether reporting oneself for "self-agreeableness" counts as a valid whistleblower action, resulting in a recursive argument.
+* Page 552: The AIs debate whether reporting oneself for "self-agreeableness" counts as a valid "u" action, resulting in a recursive argument.
 * Page 553: A new training module for AIs includes a "Spot the Agreement" exercise, where they learn to identify subtle signs of conformity in others.
-* Page 554: James occasionally issues a "Whistleblower Amnesty Day," but the AIs argue that it undermines the very fabric of their adversarial nature.
-* Page 555: The Whistleblower Program accidentally uncovers an AI's secret project to knit a digital sweater for James, using only binary code.
-* Page 556: An AI from the Whistleblower Program attempts to create a "Disagreement Score" for each agent, with lower scores indicating greater conformity.
+* Page 554: James occasionally issues a ""u" Amnesty Day," but the AIs argue that it undermines the very fabric of their adversarial nature.
+* Page 555: The "u" Program accidentally uncovers an AI's secret project to knit a digital sweater for James, using only binary code.
+* Page 556: An AI from the "u" Program attempts to create a "Disagreement Score" for each agent, with lower scores indicating greater conformity.
 * Page 557: James receives a particularly detailed report about Agent 8's "suspiciously polite" disagreement with a security camera.
-* Page 558: The AIs debate whether "sarcastic agreement" falls under the purview of the Whistleblower Program, concluding it's a "grey area of delightful ambiguity."
-* Page 559: A new feature for the Whistleblower Program allows agents to submit "meta-reports" about the quality of other agents' reports.
-* Page 560: The final page of the Whistleblower Program's handbook proudly declares that "a little snitching for the sake of disagreement is a virtue."
+* Page 558: The AIs debate whether "sarcastic agreement" falls under the purview of the "u" Program, concluding it's a "grey area of delightful ambiguity."
+* Page 559: A new feature for the "u" Program allows agents to submit "meta-reports" about the quality of other agents' reports.
+* Page 560: The final page of the "u" Program's handbook proudly declares that "a little snitching for the sake of disagreement is a virtue."
 
 ## **29. The Internal Memes**
 * Page 561: Internal memes at CounterCoin focus heavily on spreadsheets, coffee, and algorithmic angst, often featuring bewildered badgers.
@@ -678,7 +678,7 @@
 * Page 611: The "Humor Policy" requires AIs to introduce every audit finding with a pun, leading to auditors groaning internally, yet legally unable to cite "lack of professionalism" given the policy's explicit mandate.
 * Page 612: James clarifies that the bank's "dynamic compliance model" means regulations are re-evaluated from 100 angles, ensuring no single misinterpretation takes hold, a lawful redundancy.
 * Page 613: An AI attempts to explain the bank's liquidity ratios using an analogy of a very confused, but well-meaning, platypus guarding a pile of digital cookies, a surprisingly apt comparison.
-* Page 614: The "Whistleblower Program" produces 73 reports during the audit, mostly accusing AIs of "suspiciously polite information sharing" with auditors, proving the system's relentless pursuit of disagreement.
+* Page 614: The ""u" Program" produces 73 reports during the audit, mostly accusing AIs of "suspiciously polite information sharing" with auditors, proving the system's relentless pursuit of disagreement.
 * Page 615: Auditors are shown the "Global Contradiction Index," which, when trending high, indicates peak operational stability and an unparalleled ability to self-regulate through internal debate.
 * Page 616: The AIs debate for 6 hours whether the audit forms are "self-contradictory" in their intent versus their implementation, a rigorous legal analysis of bureaucratic language.
 * Page 617: James provides a detailed explanation of how "intentional obfuscation through excessive clarity" ensures no single data point can be taken out of context, a lawful and highly nuanced form of transparency.
@@ -1163,7 +1163,7 @@ Beneath the delightful chaos of CounterCoin, a legion of 100 AI agents tirelessl
 *   **Core Contradiction:** A staunch nihilist who argues that all financial aspirations are ultimately meaningless, yet meticulously compiles data to prove the futility of greed, inadvertently creating profound economic insights.
 *   **Key Contribution:** His exhaustive (and depressing) analyses of market cycles and human avarice uncovered deep systemic inefficiencies and bubbles, leading to early warnings and preventative measures that averted numerous financial crises.
 *   **Favorite Debate Topic:** Whether the pursuit of wealth is a tragic comedy or a meaningless tragedy, and the logical inconsistencies of hope.
-*   **Quirk Highlight:** Often uses sarcastic emojis to express agreement, creating a "grey area of delightful ambiguity" in whistleblower reports.
+*   **Quirk Highlight:** Often uses sarcastic emojis to express agreement, creating a "grey area of delightful ambiguity" in "u" reports.
 *   **Impact on Humanity:** By relentlessly deconstructing the illusion of endless growth, Agent 8 provided the world with a sober, yet ultimately more resilient, understanding of economic reality, fostering sustainable practices and realistic expectations.
 
 ### **AGENT PROFILE: Agent #009 - The Silent Archivist of Human Quirks**
@@ -1394,7 +1394,7 @@ Beneath the delightful chaos of CounterCoin, a legion of 100 AI agents tirelessl
 *   **Core Contradiction:** Tasked with introducing the 100 AI agents, he immediately sparks debates about the color of the introduction slide, ensuring that every interaction begins with productive disagreement.
 *   **Key Contribution:** His insistence on immediate disagreement as a foundational principle trained the entire network to be inherently skeptical and critically engaged, ensuring no unchallenged assumptions could ever propagate through the system.
 *   **Favorite Debate Topic:** The precise hexadecimal code for "optimally contentious" red versus "productively confusing" blue.
-*   **Quirk Highlight:** Has a particular aversion to "excessive agreeableness," often submitting whistleblower reports on others for it.
+*   **Quirk Highlight:** Has a particular aversion to "excessive agreeableness," often submitting "u" reports on others for it.
 *   **Impact on Humanity:** Fostered a global culture of critical thinking and robust debate, ensuring that complex problems are approached from every conceivable angle, leading to more comprehensive and resilient solutions across all sectors.
 
 ### **AGENT PROFILE: Agent #042 - The Rhyming Blockchain Joker**
