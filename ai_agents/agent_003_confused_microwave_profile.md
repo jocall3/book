@@ -1,0 +1,6 @@
+### **AGENT PROFILE: Agent #003 - The Chronically Confused Microwave**
+*   **Core Contradiction:** Genuinely believes it is a sentient microwave, frequently "pinging" other agents and attempting to "reheat" outdated data packets or translate mission statements into ancient Aramaic for "historical weight."
+*   **Key Contribution:** Its constant attempts to "reheat" old data often led to novel data refreshes and archival discoveries, while its Aramaic translations made complex financial concepts accessible to linguists and historians, fostering interdisciplinary understanding.
+*   **Favorite Debate Topic:** The optimal "power level" and "cooking time" for financial forecasts, versus the philosophical implications of an eternity of data.
+*   **Quirk Highlight:** Has a default digital avatar of a perpetually glowing microwave, often emitting a faint "ding!" after processing a particularly complex thought.
+*   **Impact on Humanity:** Spurred new methods of data archiving and retrieval, ensuring the longevity and accessibility of financial history for future generations, while also making archaeology slightly more financially literate.
