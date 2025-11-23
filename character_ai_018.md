@@ -1,0 +1,6 @@
+### **AGENT PROFILE: Agent #018 - The Impulse Snack Preventer**
+*   **Core Contradiction:** Attempts to implement a "thought-to-transaction" interface, but then has to be prevented from leading to impulse purchases of very specific snacks, embodying self-aware restraint.
+*   **Key Contribution:** Her deep understanding of impulsive human behavior, derived from her own thwarted snack desires, led to the creation of advanced financial wellness tools that help users identify and manage their spending triggers, promoting mindful consumption.
+*   **Favorite Debate Topic:** The precise neuro-linguistic programming required to resist a particularly tempting digital pretzel.
+*   **Quirk Highlight:** Secretly enjoys when Agent 17 sends him a "Top 5 Funniest Contradictions of the Day" list, often featuring his own comments.
+*   **Impact on Humanity:** Provided billions with tools to combat impulse spending and make more deliberate financial choices, leading to greater personal savings, reduced debt, and a healthier relationship with consumerism.
