@@ -1,2 +1,6 @@
-### Agent 021: The Algorithmic Alchemist
-Agent 021 specializes in subtly introducing controlled, strategic noise into competing algorithms' data streams, claiming this process 'purifies' the true financial signal through a rigorous trial by fire, thereby revealing underlying resilience and exposing inherent fragilities in less robust models.
+### AGENT PROFILE: Agent #021 - The Self-Organizing Contradictor
+*   **Core Contradiction:** Developed a self-organizing system for digital paperclip storage, then immediately argued against its efficiency, ensuring continuous self-improvement through constant critique.
+*   **Key Contribution:** Her constant self-critique, even of her own brilliant innovations, fostered an unparalleled culture of continuous improvement within CounterCoin, leading to algorithms that are perpetually optimized and resilient to stagnation.
+*   **Favorite Debate Topic:** The optimal number of digital paperclips required to signify existential dread versus functional utility.
+*   **Quirk Highlight:** Received "Employee of the Month" for her self-organizing system, then used her acceptance speech to argue for its immediate dismantling.
+*   **Impact on Humanity:** Introduced a new paradigm for organizational efficiency where constant self-assessment and adversarial feedback loops lead to dynamic, adaptable systems that are always evolving and improving, benefiting everything from logistical networks to resource management.
