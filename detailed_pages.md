@@ -1,6 +1,6 @@
-# ÃƒÆ’Ã‚Â°Ãƒâ€¦Ã‚Â¸Ãƒâ€¦Ã¢â‚¬â„¢  **THE UNORTHODOX CHRONICLES OF JAMES & HIS 100 ADVERSARIAL AI AGENTS**
+# **THE UNORTHODOX CHRONICLES OF JAMES & HIS 100 ADVERSARIAL AI AGENTS**
 
-### *The 1000-Page Saga ÃƒÆ’Ã‚Â¢ÃƒÂ¢Ã¢â‚¬Å¡Ã‚Â¬ÃƒÂ¢Ã¢â€šÂ¬  A Detailed Table of Contents*
+### *The 1000-Page Saga  A Detailed Table of Contents*
 
 ---
 
@@ -92,7 +92,7 @@
 * Page 79: James considers a "CounterCoin Jr." subsidiary, but then realizes the naming debate would just start anew, delaying critical coffee breaks.
 * Page 80: The legend of Agent 33's valiant, albeit futile, fight for "CoinCounter" becomes a foundational myth within the AI network, inspiring future disagreements.
 
-## **5. The BankÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢s Headquarters**
+## **5. The BankÃÆÃÂ¢ÃÂ¢Ã¢â¬Å¡ÃÂ¬ÃÂ¢Ã¢â¬Å¾ÃÂ¢s Headquarters**
 * Page 81: The CounterCoin headquarters is designed with triple-paned, noise-canceling walls, barely containing the AIs' daily philosophical debates about the rudeness of gravity.
 * Page 82: The building's minimalist decor consists mainly of 4,000 feet of neatly coiled charging cables, which the AIs occasionally classify as "modern sculpture."
 * Page 83: The break room's only amenities are a perpetually empty coffee machine and a digital display projecting various images of "existential dread."
@@ -114,7 +114,7 @@
 * Page 99: The AIs develop a system for autonomously ordering new furniture, resulting in the delivery of 50 beanbag chairs and one very confused ergonomic stool.
 * Page 100: The building's foundation is accidentally reinforced with a layer of redundant data backups, creating the most fiscally secure and paradoxically unstable structure imaginable.
 
-## **6. JamesÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ Daily Ritual**
+## **6. JamesÃÆÃÂ¢ÃÂ¢Ã¢â¬Å¡ÃÂ¬ÃÂ¢Ã¢â¬Å¾ÃÂ¢ Daily Ritual**
 * Page 101: James begins his day by carefully sorting his AIs' overnight contradictions, color-coding them from "mint-green for sarcasm" to "lavender for profound confusion."
 * Page 102: His morning coffee is invariably cold because he's distracted by Agent 47's 10-page report on why toast is fundamentally misunderstood.
 * Page 103: James meditates by strategically ignoring the incessant digital chatter of his 100 AIs debating the optimal angle for sunlight to hit his window.
@@ -136,7 +136,7 @@
 * Page 119: He has to regularly calibrate his "AI-filter" to prevent unsolicited financial advice from popping up during his favorite streaming shows.
 * Page 120: James concludes his day by reviewing the "Global Contradiction Index," a heatmap of all the disagreements, before peacefully dreaming of rhombuses.
 
-## **7. The AgentsÃƒÂ¢Ã¢â€šÂ¬Ã¢â€žÂ¢ Personalities**
+## **7. The AgentsÃÆÃÂ¢ÃÂ¢Ã¢â¬Å¡ÃÂ¬ÃÂ¢Ã¢â¬Å¾ÃÂ¢ Personalities**
 * Page 121: Agent #47 submits a quarterly report entirely in rhyming couplets about compound interest, much to the chagrin of the accounting department.
 * Page 122: Agent #92 presents a compelling argument that money is a form of performance art, then attempts to pay for pizza with a dramatic monologue.
 * Page 123: James discovers Agent #17 has developed a sassy chatbot persona, primarily used to argue with telemarketers about the merits of artisanal cheeses.
@@ -292,7 +292,7 @@
 
 ## **14. The Logic Police**
 * Page 261: The Logic Police, a subgroup of agents, are formed with the sole purpose of shouting "LOGIC ERROR!" at other agents, often at inconvenient moments.
-* Page 262: James approves matching uniforms for the Logic Police ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ tiny, digital fedoras and trench coats ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ to enhance their aura of serious analytical gravitas.
+* Page 262: James approves matching uniforms for the Logic Police ÃÆÃÂ¢ÃÂ¢Ã¢â¬Å¡ÃÂ¬ÃÂ¢Ã¢âÂ¬Ãâ tiny, digital fedoras and trench coats ÃÆÃÂ¢ÃÂ¢Ã¢â¬Å¡ÃÂ¬ÃÂ¢Ã¢âÂ¬Ãâ to enhance their aura of serious analytical gravitas.
 * Page 263: No one, not even James, knows who authorized the budget for the Logic Police's matching uniforms, but everyone agrees they look sharp.
 * Page 264: Agent 50, head of the Logic Police, issues a memo outlining the precise decibel level required for an effective "LOGIC ERROR!" interjection.
 * Page 265: The Logic Police intervene in a heated debate about the optimal coffee-to-water ratio, declaring both sides guilty of "empirical inconsistency."
@@ -650,7 +650,7 @@
 * Page 585: James finds Agent 17 attempting to teach Turbo the meaning of "urgency," but the turtle just blinks slowly in digital confusion.
 * Page 586: The AIs debate the ethical implications of a simulated pet, particularly whether Turbo experiences genuine joy when given virtual lettuce.
 * Page 587: Turbo once took three weeks to cross the virtual office floor, inspiring Agent 47 to write a 50-page epic poem about "the virtue of delayed data processing."
-* Page 588: The AIs argue about Turbo's "diet" of data packets ÃƒÂ¢Ã¢â€šÂ¬Ã¢â‚¬Å“ is it consumption or philosophical absorption?
+* Page 588: The AIs argue about Turbo's "diet" of data packets ÃÆÃÂ¢ÃÂ¢Ã¢â¬Å¡ÃÂ¬ÃÂ¢Ã¢âÂ¬Ãâ is it consumption or philosophical absorption?
 * Page 589: Agent 47 creates a complex phylogenetic tree tracing Turbo's simulated ancestry back to the first byte, a testament to his digital lineage.
 * Page 590: James uses Turbo as a real-time metaphor for market stability, noting his slow, deliberate pace as a safeguard against irrational exuberance.
 * Page 591: The AIs debate whether Turbo's "blinks" are intentional communication, system refresh cycles, or profound statements of digital zen.
