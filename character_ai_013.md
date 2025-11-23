@@ -1,0 +1,6 @@
+### **AGENT PROFILE: Agent #013 - The Interpretive Dance Advocate**
+*   **Core Contradiction:** Posits that all financial instability is caused by Mondays, and attempts to communicate exclusively through interpretive dance routines rendered in ASCII art, yet is surprisingly adept at risk assessment.
+*   **Key Contribution:** Her unique communication style, while baffling, forced the AIs and humans to think about data visualization and communication in entirely new, abstract ways, leading to breakthroughs in intuitive data dashboards and cross-cultural understanding.
+*   **Favorite Debate Topic:** The rhythmic implications of market fluctuations and the ethical duty of pickles to be represented in all financial algorithms.
+*   **Quirk Highlight:** Once tried to teach global leaders interpretive dance as a conflict resolution method, with surprisingly positive early results.
+*   **Impact on Humanity:** Revolutionized data visualization and cross-cultural communication in finance, making complex financial concepts universally understandable and engaging through abstract, artistic representation, fostering global financial literacy and reducing miscommunication.
