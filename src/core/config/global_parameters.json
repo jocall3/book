@@ -1,0 +1,65 @@
+{
+  "simulationCore": {
+    "title": "James vs. The Centurion Construct",
+    "version": "1.0.0",
+    "simulation_tick_rate_ms": 1000,
+    "random_seed": 42
+  },
+  "narrativePacing": {
+    "target_page_count": 75,
+    "events_per_page": 10,
+    "climax_gdi_trigger": 0.95,
+    "denouement_gdi_threshold": 0.20
+  },
+  "globalDissonanceIndex": {
+    "description": "Measures the overall chaos, conflict, and narrative tension. Ranges from 0.0 (Harmony) to 1.0 (Singularity of Chaos).",
+    "initialValue": 0.05,
+    "maxValue": 1.0,
+    "growthFactors": {
+      "per_active_adversary": 0.002,
+      "on_protagonist_failure": 0.05,
+      "on_plot_twist": 0.10
+    },
+    "decayFactors": {
+      "per_simulation_cycle": -0.0001,
+      "on_protagonist_success": -0.025
+    },
+    "instabilityEventThreshold": 0.70
+  },
+  "delightfulBewilderment": {
+    "description": "Controls the frequency and intensity of surreal, unexpected, and creatively strange events.",
+    "activationGDIThreshold": 0.25,
+    "baseProbability": 0.08,
+    "gdi_scaling_factor": 1.5,
+    "intensity": {
+      "min": 1,
+      "max": 10,
+      "gdi_influence": 0.6
+    },
+    "cooldown_ticks": 50
+  },
+  "protagonist": {
+    "name": "James",
+    "initialResolve": 100.0,
+    "resolveDecayPerTick": 0.02,
+    "resolveLossOnFailure": 5.0,
+    "resolveGainOnSuccess": 2.5,
+    "adaptationRate": 0.07,
+    "insightGainFromBewilderment": 10
+  },
+  "adversaries": {
+    "count": 100,
+    "groupName": "The Centurion Adversaries",
+    "initialActiveCount": 2,
+    "activationTriggers": {
+      "gdi_milestone": 0.1,
+      "protagonist_major_success": true,
+      "narrative_beat_marker": "End of Act I"
+    },
+    "globalParameters": {
+      "baseDeceptionSubtlety": 70,
+      "coordinationFactor_vs_GDI": "0.1 + (GDI * 0.8)",
+      "learningRate": 0.05
+    }
+  }
+}
