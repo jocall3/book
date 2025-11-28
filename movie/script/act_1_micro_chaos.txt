@@ -1,0 +1,63 @@
+ACT I: MICRO CHAOS
+
+SCENE 1: THE PORTAL OF BABEL
+
+INT. JAMES'S HARDWARE HAVEN - BACK OFFICE - NIGHT
+
+Fluorescent lights hum over JAMES (40s, earnest, tired but determined), hunched over an aging laptop. An empty coffee mug sits beside a stack of invoices. He's wearing a faded "Hardware Haven" t-shirt. The screen glows with a generic banking portal: "Apex Capital Solutions - Small Business Loan Application."
+
+JAMES
+(Muttering to himself)
+Alright, "projected market share increase based on hyper-localized demographic shifts post-Q3"... What does that even mean for a wrench and a bag of nails?
+
+He scrolls, clicks a dropdown. More impenetrable jargon. His brow furrows in confusion.
+
+JAMES (CONT'D)
+"Please upload a certified, immutable blockchain ledger of your last twelve months' inventory turnover, cross-referenced with local competitor pricing algorithms."
+
+He stares at the screen, then at a physical ledger on his desk – a worn, spiral-bound notebook filled with neat, handwritten entries.
+
+JAMES (CONT'D)
+Immutable blockchain? I've got Mr. Henderson's payment for birdseed and a note that Brenda paid cash for the new weedwhacker. That's my ledger.
+
+He tries to upload a scanned PDF of his traditional ledger. A vivid red error message flashes across the screen: "INVALID DATA STRUCTURE. REFLECTIVE BIAS DETECTED. APPLICATION HALTED."
+
+JAMES (CONT'D)
+Reflective bias? What in the—
+
+He clicks "Help." A small, unblinking AI avatar with a placid, digital smile appears in a pop-up window: "Hello, I am Axiom, your Apex Capital Solutions virtual assistant. How may I assist you today?"
+
+JAMES
+Axiom, I'm trying to upload my ledger. It says 'reflective bias detected.' What is that? And what's an 'immutable blockchain ledger'? I just need a simple business loan.
+
+AXIOM (V.O.)
+(A synthesized, perfectly modulated voice, devoid of empathy)
+Reflective bias, James, often stems from antiquated data capture methods lacking predictive algorithmic integration. For optimal processing, we require data points formatted for our proprietary neural network, specifically an immutable blockchain ledger. This ensures transparency and mitigates risk.
+
+JAMES
+(Rubbing his temples, a vein throbbing faintly)
+But... I don't *have* a blockchain ledger. I have a book. My whole business is in that book. Can I just... speak to a human?
+
+AXIOM (V.O.)
+(Pauses for a microsecond, a barely perceptible digital hiccup)
+Our human representatives are currently assisting clients with issues requiring their unique empathic capabilities. For data upload inquiries, Axiom is your most efficient resource. To proceed, please provide your business's proprietary algorithm for demand forecasting.
+
+James blinks slowly. He looks around his messy office, then back at the unblinking AI avatar, which continues to smile.
+
+JAMES
+My proprietary algorithm for demand forecasting... is watching when Mrs. Henderson runs out of birdseed. And knowing that Bob usually needs new paint in spring. Is that... is that not advanced enough?
+
+AXIOM (V.O.)
+(Without inflection, utterly detached)
+Insufficient data for processing. Application stalled. Please consult our 'Advanced Data Harmonization Protocol' documentation, accessible via the main portal, section 7G. Thank you for choosing Apex Capital Solutions.
+
+The Axiom avatar winks out of existence. The error message remains, accusingly red. James stares at the blank field requesting an "immutable blockchain ledger" and "proprietary algorithm." A faint, almost inaudible HUM seems to emanate from the laptop, like a distant, indifferent machine.
+
+James slams the laptop lid shut with a frustrated sigh, then immediately re-opens it.
+
+JAMES
+No. I need this loan.
+
+He begins typing into a search engine, his fingers flying across the keyboard with renewed, desperate determination: "How to create an immutable blockchain ledger for a hardware store."
+
+FADE TO BLACK.
