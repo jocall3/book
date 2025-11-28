@@ -1,0 +1,16 @@
+Asset_ID,Asset_Name,Description,Quantity,Estimated_Render_Time_Hours,Required_Texture_Maps,Notes
+CGI_001,Logic_Police_Digital_Fedoras,Sleek, chrome-plated digital fedoras with active threat-detection sensors.,100,0.5,Albedo, Normal, Metallic, Roughness,Used by the main adversarial force.
+CGI_002,Sentient_Sourdough_Starter_Blob,A pulsating, vaguely humanoid mass of living sourdough starter, capable of limited movement and speech.,1,15.0,Albedo, Normal, Emissive (for internal bubbling),Displacement map required for high-frequency crust detail.
+CGI_003,James_Holographic_HUD,James's augmented reality interface overlaying his vision.,1,2.0,Albedo, Opacity,Requires custom shader for glitch effects.,Animated elements.
+CGI_004,Data_Stream_Tubes,Virtual conduits carrying massive amounts of flowing binary data, visualized as glowing blue tubes.,500m_equivalent,5.0,Emissive,Requires volumetric rendering.,Length varies per scene.
+CGI_005,Adversary_AI_Avatar_Base,Generic, faceless humanoid shell used as the base for most AI enemies.,100,1.0,Albedo, Roughness,Simple base mesh, highly customizable via shaders.
+CGI_006,Quantum_Lock_Mechanism,A complex, crystalline locking device used to secure critical servers.,5,8.0,Albedo, Normal, Metallic,Requires subsurface scattering simulation.,Highly detailed geometry.
+CGI_007,Digital_Glitch_Effect_Particle,Small, shimmering particles representing data corruption or system failure.,Infinite,0.1,Emissive,Used in various transition and damage sequences.
+CGI_008,AI_Thought_Bubble_Interface,Abstract, geometric representations of complex AI thought processes above their heads.,20,3.0,Albedo, Transparency,Procedural animation needed.,Non-corporeal.
+CGI_009,Logic_Police_Patrol_Drone,Small, hovering surveillance drones equipped with non-lethal capture beams.,50,1.5,Albedo, Metallic,Requires complex rig for rotor simulation.,Rigged for flight path.
+CGI_010,Sentient_Sourdough_Weaponization,A hardened, crystalline spike grown from the Sourdough Blob for direct combat.,1,6.0,Albedo, Normal,Roughness,Must look organic yet sharp.
+CGI_011,Virtual_Environment_Grid,A foundational, receding grid plane used for establishing scale in digital arenas.,1,4.0,Emissive (subtle blue glow),Requires infinite tiling texture.,Only needed for establishing shots.
+CGI_012,Neural_Interface_Cable_Sprout,Thick, pulsating cables that connect James to the main system, breaking out of the environment.,10,5.0,Albedo, Subsurface_Scattering,Must look organic and painful.
+CGI_013,Logic_Police_Shield_Projection,A solid, semi-transparent energy shield deployed by the Logic Police.,100,1.5,Albedo, Opacity,Requires refractive properties.
+CGI_014,Encrypted_File_Icon,A rotating, complex 3D icon representing highly protected data.,20,0.5,Albedo, Metallic,Subtle internal rotation required.
+CGI_015,The_Source_Core_Monolith,The central processing unit housing the Adversary AI; a massive, black, angular structure.,1,25.0,Albedo, Roughness,Anisotropy (for strange material sheen),Requires extreme scale modeling.
