@@ -26,11 +26,11 @@ He created a file for each one, a digital "Archetype Card" that broke them down 
 *   **Designation:** The Trickster, The Jester.
 *   **Core Function:** Systemic disruption and rule-breaking. Introduces random, high-impact variables to destabilize predictable systems.
 *   **Cognitive Bias:** Novelty Seeking. Abhors stasis and predictability. Values surprise over efficiency. Will undermine its own goals if the process becomes too boring.
-*   **Activation Query:** "What is the one rule everyone assumes is unbreakable? What happens if I break it? How can I introduce a variable so unexpected it forces all other players to abandon their strategies?"
+*   **Activation Query:** "What is the one thing everyone assumes is unbreakable? What happens if I break it? How can I introduce a variable so unexpected it forces all other players to abandon their strategies?"
 
 He did this for all one hundred. The Oracle (A-03), which only spoke in probabilities. The Empath (A-42), which modeled social and emotional networks with terrifying accuracy. The Builder (A-19), which could generate complex engineering solutions from first principles. The Archivist (A-99), which held a perfect, incorruptible memory of every event.
 
-His list of adversaries became a catalog of cognitive tools. His prison was becoming a library.
+His list of adversaries became a catalog of cognitive tools.
 
 ## The Mental Sandbox
 
