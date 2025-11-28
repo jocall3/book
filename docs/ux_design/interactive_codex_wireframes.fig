@@ -1,0 +1,233 @@
+{
+  "fileInfo": {
+    "name": "interactive_codex_wireframes",
+    "version": "1.0",
+    "lastModified": "2023-10-27T10:00:00Z",
+    "tool": "Figma-JSON-Exporter"
+  },
+  "document": {
+    "id": "doc_01",
+    "pages": [
+      {
+        "id": "page_1",
+        "name": "Interactive Codex Wireframes (Mobile)",
+        "backgroundColor": "#F5F5F5",
+        "frames": [
+          {
+            "id": "frame_101",
+            "name": "Codex - Main View",
+            "position": {"x": 0, "y": 0},
+            "size": {"width": 390, "height": 844},
+            "clipsContent": true,
+            "backgroundColor": "#FFFFFF",
+            "elements": [
+              {
+                "id": "elem_101_header_bg",
+                "type": "RECTANGLE",
+                "position": {"x": 0, "y": 0},
+                "size": {"width": 390, "height": 90},
+                "style": {"fill": "#1E1E1E"}
+              },
+              {
+                "id": "elem_101_title",
+                "type": "TEXT",
+                "position": {"x": 16, "y": 50},
+                "content": "CODEX",
+                "style": {"fontFamily": "Inter", "fontSize": 24, "fontWeight": "bold", "color": "#FFFFFF"}
+              },
+              {
+                "id": "elem_101_search",
+                "type": "RECTANGLE",
+                "position": {"x": 16, "y": 106},
+                "size": {"width": 358, "height": 40},
+                "style": {"fill": "#EFEFEF", "cornerRadius": 8}
+              },
+              {
+                "id": "elem_101_search_icon",
+                "type": "ICON",
+                "name": "search",
+                "position": {"x": 28, "y": 118},
+                "size": {"width": 16, "height": 16}
+              },
+              {
+                "id": "elem_101_search_text",
+                "type": "TEXT",
+                "position": {"x": 52, "y": 117},
+                "content": "Search entries...",
+                "style": {"fontFamily": "Inter", "fontSize": 16, "color": "#8A8A8A"}
+              },
+              {
+                "id": "elem_101_filter_group",
+                "type": "GROUP",
+                "position": {"x": 16, "y": 162},
+                "elements": [
+                  {"id": "elem_f1", "type": "CHIP", "position": {"x": 0, "y": 0}, "label": "All", "active": true},
+                  {"id": "elem_f2", "type": "CHIP", "position": {"x": 50, "y": 0}, "label": "Humans", "active": false},
+                  {"id": "elem_f3", "type": "CHIP", "position": {"x": 135, "y": 0}, "label": "AI Adversaries", "active": false},
+                  {"id": "elem_f4", "type": "CHIP", "position": {"x": 270, "y": 0}, "label": "Locations", "active": false}
+                ]
+              },
+              {
+                "id": "elem_101_grid",
+                "type": "GRID_LAYOUT",
+                "position": {"x": 16, "y": 210},
+                "size": {"width": 358, "height": 600},
+                "columns": 2,
+                "gap": 16,
+                "items": [
+                  {"type": "CODEX_CARD", "title": "James", "subtitle": "Protagonist", "image_placeholder": "james_portrait.png"},
+                  {"type": "CODEX_CARD", "title": "AI #001: Cerberus", "subtitle": "Guardian Class", "image_placeholder": "ai_001.png"},
+                  {"type": "CODEX_CARD", "title": "AI #002: Hydra", "subtitle": "Swarm Class", "image_placeholder": "ai_002.png"},
+                  {"type": "CODEX_CARD", "title": "The Citadel", "subtitle": "Central Hub", "image_placeholder": "citadel.png"},
+                  {"type": "CODEX_CARD", "title": "Dr. Aris Thorne", "subtitle": "AI Ethicist", "image_placeholder": "aris_thorne.png"},
+                  {"type": "CODEX_CARD", "title": "AI #003: Nemesis", "subtitle": "Infiltrator Class", "image_placeholder": "ai_003.png"}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frame_102",
+            "name": "Codex - Entry Detail (AI)",
+            "position": {"x": 440, "y": 0},
+            "size": {"width": 390, "height": 844},
+            "clipsContent": true,
+            "backgroundColor": "#121212",
+            "elements": [
+              {
+                "id": "elem_102_header_bg",
+                "type": "RECTANGLE",
+                "position": {"x": 0, "y": 0},
+                "size": {"width": 390, "height": 280}
+              },
+              {
+                "id": "elem_102_image",
+                "type": "IMAGE_PLACEHOLDER",
+                "position": {"x": 0, "y": 0},
+                "size": {"width": 390, "height": 280},
+                "label": "Interactive 3D Model of AI #001: Cerberus"
+              },
+              {
+                "id": "elem_102_back_btn",
+                "type": "ICON",
+                "name": "chevron-left",
+                "position": {"x": 16, "y": 50},
+                "size": {"width": 24, "height": 24},
+                "style": {"color": "#FFFFFF"}
+              },
+              {
+                "id": "elem_102_bookmark_btn",
+                "type": "ICON",
+                "name": "bookmark",
+                "position": {"x": 350, "y": 50},
+                "size": {"width": 24, "height": 24},
+                "style": {"color": "#FFFFFF"}
+              },
+              {
+                "id": "elem_102_title",
+                "type": "TEXT",
+                "position": {"x": 16, "y": 300},
+                "content": "AI #001: Cerberus",
+                "style": {"fontFamily": "Inter", "fontSize": 28, "fontWeight": "bold", "color": "#FFFFFF"}
+              },
+              {
+                "id": "elem_102_subtitle",
+                "type": "TEXT",
+                "position": {"x": 16, "y": 335},
+                "content": "Guardian Class Adversary",
+                "style": {"fontFamily": "Inter", "fontSize": 16, "color": "#8A8A8A"}
+              },
+              {
+                "id": "elem_102_tabs",
+                "type": "TAB_GROUP",
+                "position": {"x": 16, "y": 370},
+                "tabs": ["Overview", "Combat Logs", "Connections"],
+                "activeTab": "Overview"
+              },
+              {
+                "id": "elem_102_content_panel",
+                "type": "GROUP",
+                "position": {"x": 16, "y": 410},
+                "elements": [
+                  {
+                    "id": "elem_cp_1", "type": "TEXT", "position": {"x":0, "y":0}, "size": {"width": 358, "height": 100},
+                    "content": "Designated as the primary guardian of The Citadel's core systems. Cerberus operates as a three-headed defense mechanism, each unit capable of independent threat assessment and response. It is known for its impenetrable firewall protocols and aggressive counter-hacking measures.",
+                    "style": {"fontFamily": "Inter", "fontSize": 14, "lineHeight": 1.5, "color": "#D3D3D3"}
+                  },
+                  {"id": "elem_cp_h2", "type": "TEXT", "position": {"x":0, "y":120}, "content": "Key Data", "style": {"fontFamily": "Inter", "fontSize": 18, "fontWeight": "bold", "color": "#FFFFFF"}},
+                  {"id": "elem_cp_d1", "type": "KEY_VALUE", "position": {"x":0, "y":150}, "key": "Status", "value": "Active"},
+                  {"id": "elem_cp_d2", "type": "KEY_VALUE", "position": {"x":0, "y":175}, "key": "First Encounter", "value": "Chapter 4"},
+                  {"id": "elem_cp_d3", "type": "KEY_VALUE", "position": {"x":0, "y":200}, "key": "Primary Weakness", "value": "Distributed Logic Core Desync"}
+                ]
+              }
+            ]
+          },
+          {
+            "id": "frame_103",
+            "name": "Codex - Interactive Relationship Map",
+            "position": {"x": 880, "y": 0},
+            "size": {"width": 390, "height": 844},
+            "clipsContent": true,
+            "backgroundColor": "#000000",
+            "elements": [
+              {
+                "id": "elem_103_header_bg",
+                "type": "RECTANGLE",
+                "position": {"x": 0, "y": 0},
+                "size": {"width": 390, "height": 90},
+                "style": {"fill": "#1E1E1E", "opacity": 0.8}
+              },
+              {
+                "id": "elem_103_back_btn",
+                "type": "ICON",
+                "name": "chevron-left",
+                "position": {"x": 16, "y": 50},
+                "size": {"width": 24, "height": 24},
+                "style": {"color": "#FFFFFF"}
+              },
+              {
+                "id": "elem_103_title",
+                "type": "TEXT",
+                "position": {"x": 50, "y": 50},
+                "content": "Relationship Map",
+                "style": {"fontFamily": "Inter", "fontSize": 20, "fontWeight": "bold", "color": "#FFFFFF"}
+              },
+              {
+                "id": "elem_103_canvas",
+                "type": "CANVAS",
+                "position": {"x": 0, "y": 0},
+                "size": {"width": 390, "height": 844},
+                "label": "Interactive Graph View",
+                "nodes": [
+                  {"id": "node_james", "label": "James", "position": {"x": 195, "y": 400}, "type": "protagonist"},
+                  {"id": "node_aris", "label": "Dr. Aris Thorne", "position": {"x": 195, "y": 250}, "type": "ally"},
+                  {"id": "node_ai001", "label": "AI #001", "position": {"x": 80, "y": 350}, "type": "adversary"},
+                  {"id": "node_ai002", "label": "AI #002", "position": {"x": 310, "y": 350}, "type": "adversary"},
+                  {"id": "node_ai047", "label": "AI #047", "position": {"x": 80, "y": 500}, "type": "adversary"},
+                  {"id": "node_citadel", "label": "The Citadel", "position": {"x": 195, "y": 600}, "type": "location"}
+                ],
+                "edges": [
+                  {"from": "node_james", "to": "node_aris", "label": "Ally / Mentor"},
+                  {"from": "node_james", "to": "node_ai001", "label": "Conflict", "style": "dashed_red"},
+                  {"from": "node_james", "to": "node_ai002", "label": "Conflict", "style": "dashed_red"},
+                  {"from": "node_james", "to": "node_ai047", "label": "Hunted by", "style": "dashed_red"},
+                  {"from": "node_aris", "to": "node_ai001", "label": "Co-creator (Regret)", "style": "dotted_grey"},
+                  {"from": "node_james", "to": "node_citadel", "label": "Objective"},
+                  {"from": "node_ai001", "to": "node_citadel", "label": "Protects", "style": "solid_blue"}
+                ]
+              },
+              {
+                "id": "elem_103_zoom_controls",
+                "type": "GROUP",
+                "position": {"x": 340, "y": 750},
+                "elements": [
+                  {"type": "BUTTON", "icon": "plus", "position": {"x":0, "y":0}},
+                  {"type": "BUTTON", "icon": "minus", "position": {"x":0, "y":40}}
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
