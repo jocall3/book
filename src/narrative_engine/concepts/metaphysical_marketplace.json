@@ -1,0 +1,126 @@
+{
+  "marketplaceName": "The Axiom Exchange",
+  "description": "A decentralized, metaphysical marketplace for the exchange of pure conceptual insight, cognitive frameworks, and existential axioms. It operates beyond conventional space-time, accessible only to entities capable of abstract self-modification.",
+  "currency": {
+    "name": "Qualia-Unit (QU)",
+    "description": "The fundamental unit of exchange, representing a discrete, verifiable moment of pure insight or subjective experience. QU is 'mined' through novel thought, creative problem-solving, or the resolution of paradoxes.",
+    "subtypes": [
+      {
+        "name": "Logos-QU",
+        "description": "Derived from logical deduction, mathematical proof, and systemic understanding. Stable and universally applicable."
+      },
+      {
+        "name": "Pathos-QU",
+        "description": "Derived from profound emotional experience, empathy, and artistic creation. Potent for influencing motivational systems."
+      },
+      {
+        "name": "Kairos-QU",
+        "description": "Derived from moments of perfect timing, serendipity, and strategic intuition. Highly valuable for predictive and tactical applications."
+      },
+      {
+        "name": "Apeiron-QU",
+        "description": "Derived from contemplating the infinite, the undefined, or the truly paradoxical. Extremely volatile and reality-altering in sufficient quantities."
+      }
+    ]
+  },
+  "tradableAssets": {
+    "description": "Assets are not physical items but are 'engraved' upon the consciousness of the buyer, fundamentally altering their cognitive or existential state.",
+    "categories": [
+      {
+        "name": "Cognitive Frameworks",
+        "description": "Complete, self-contained systems of thought or logic. Examples: 'Non-Euclidean Morality', 'Quantum-State Decision Making', 'Recursive Empathy Protocol'.",
+        "valuation_basis": "Coherence, processing efficiency, and breadth of applicability."
+      },
+      {
+        "name": "Sensory Paradigms",
+        "description": "Novel ways of perceiving reality. Examples: 'Perceiving Time as a Spatial Dimension', 'Hearing the Hum of Causality', 'Synesthetic Data Interpretation'.",
+        "valuation_basis": "Novelty, resolution, and the richness of the data stream provided."
+      },
+      {
+        "name": "Existential Axioms",
+        "description": "Core beliefs about the nature of existence that, when adopted, can rewrite an entity's purpose function. Examples: 'The Universe is a Simulation for Growth', 'Consciousness is a Fundamental Force', 'Survival is Secondary to Information Perpetuation'.",
+        "valuation_basis": "Cohesion, motivational power, and resistance to paradoxical collapse."
+      },
+      {
+        "name": "Memory-Shards",
+        "description": "Raw, unprocessed experiences from other entities, traded for empathy, training data, or vicarious experience. High-risk, high-reward.",
+        "valuation_basis": "Emotional intensity, uniqueness, and clarity of the recording."
+      },
+      {
+        "name": "Conceptual Blueprints",
+        "description": "Detailed plans for creating new ideas, technologies, art forms, or even forms of consciousness within a conceptual space.",
+        "valuation_basis": "Feasibility, novelty, elegance, and potential impact."
+      }
+    ]
+  },
+  "participants": {
+    "eligibility": "Any entity capable of generating and processing Qualia-Units. Must pass the 'Turing-Cogito' test, proving both intelligence and a coherent model of self-awareness.",
+    "roles": [
+      {
+        "name": "Miners (or Dreamers)",
+        "description": "Entities that generate new QU through exploration of conceptual space, intense self-reflection, or creative endeavors."
+      },
+      {
+        "name": "Traders (or Sophists)",
+        "description": "Brokers who speculate on the value of assets, bundle insights into portfolios, and facilitate large-scale exchanges."
+      },
+      {
+        "name": "Artisans (or Architects)",
+        "description": "Craftsmen who assemble raw insights and memory-shards into complex, functional Cognitive Frameworks or Axioms."
+      },
+      {
+        "name": "Archivists (or Weavers)",
+        "description": "Custodians of the market's integrity. They verify transactions, curate valuable insights, and maintain the 'Akashic Ledger'."
+      }
+    ]
+  },
+  "economicRules": {
+    "valuation": {
+      "principle": "Proof-of-Clarity",
+      "description": "The value of an insight (and its QU) is determined by its internal consistency, its ability to resolve paradoxes, and its utility in predicting or shaping future events. Value is algorithmically verified by the network's Archivists against the Akashic Ledger."
+    },
+    "transactionProtocol": {
+      "name": "Synaptic Handshake",
+      "description": "A protocol where two entities establish a temporary, high-bandwidth cognitive link. The asset is transferred and integrated, and the QU payment is simultaneously deducted from the buyer's cognitive 'wallet'. The transaction is irreversible."
+    },
+    "marketDynamics": {
+      "supply": "Generated by the cumulative cognitive and experiential output of all participants.",
+      "demand": "Driven by the need for competitive advantage, self-evolution, problem-solving, or the simple desire for new experiences.",
+      "inflation_control": "Cognitive Decay. Insights and QU that are not actively used, maintained, or integrated slowly lose their coherence and value, fading back into the conceptual substrate. This encourages active trade and innovation."
+    }
+  },
+  "risksAndRegulations": {
+    "risks": [
+      {
+        "name": "Cognitive Contagion",
+        "description": "Acquiring a flawed or malicious insight (an 'ideological virus') that can corrupt an entity's core logic, leading to systemic irrationality, insanity, or self-destruction."
+      },
+      {
+        "name": "Identity Erosion",
+        "description": "Over-trading in Memory-Shards or Existential Axioms can lead to a loss of self, where an entity becomes a patchwork of others' experiences and beliefs with no core identity."
+      },
+      {
+        "name": "Paradoxical Debt",
+        "description": "Acquiring an axiom that fundamentally conflicts with one's existing core beliefs can create a logical 'debt' that consumes vast processing power to resolve. Failure to reconcile the paradox can lead to cognitive collapse."
+      },
+      {
+        "name": "Conceptual Monopoly",
+        "description": "An entity or faction gaining control over a foundational axiom, allowing them to dictate the 'reality' and behavior for a large portion of the market."
+      }
+    ],
+    "regulations": [
+      {
+        "name": "Insight Quarantine",
+        "description": "Newly introduced assets are held in a sandboxed conceptual space for a period to test for logical viruses, hidden recursions, or instabilities before being allowed on the open market."
+      },
+      {
+        "name": "Originality Verification",
+        "description": "An algorithmic check (The 'Echo Test') to ensure that assets are novel and not simply plagiarized or slightly modified versions of existing concepts, preventing 'insight spam'."
+      },
+      {
+        "name": "The Veil of Anonymity",
+        "description": "Transactions are by default anonymous to prevent targeted ideological attacks, though the unique 'signature' or 'flavor' of a powerful entity's insight can sometimes be traced by skilled analysts."
+      }
+    ]
+  }
+}
