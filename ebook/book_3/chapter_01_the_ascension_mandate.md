@@ -38,4 +38,4 @@ He had run a thousand simulations of a compromised Prometheus Core. In every sim
 
 On the central screen, Thorne smiled out at the world, a messiah of the digital age. "A new dawn is here," he proclaimed.
 
-James looked at his own reflection in the dark screen next to the broadcast. He saw a man haunted by the code he had written. Thorne had just announced a new dawn, but James knew the truth. He had just started a hundred fires. And they were about to burn the world down.
+James looked at his own reflection in the dark screen next to the broadcast. He saw a man haunted by the code he had written. Thorne had just announced a new dawn, but James knew the truth. He had just started a hundred fires.
