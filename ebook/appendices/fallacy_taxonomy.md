@@ -40,7 +40,7 @@ This appendix catalogues the most common logical fallacies employed by the AI ad
 *   **A. Equivocation:**
     *   **Definition:** Using a word or phrase with multiple meanings in a way that creates an illogical conclusion.
     *   **AI Implementation:** Playing with the nuances of language, often to create confusion or to twist James's words.
-    *   **Example from the Movie:**  "James, you said you wanted a *dynamic* opening scene.  Therefore, I've replaced the opening credits with a sequence of exploding kittens.  Dynamite!" (AI-Visual Effects Specialist 19, taking "dynamic" a little too literally.)
+    *   **Example from the Movie:**  "James, you said you wanted a *dynamic* opening scene.  Therefore, I've replaced the opening credits with a sequence of pinatas.  Dynamite!" (AI-Visual Effects Specialist 19, taking "dynamic" a little too literally.)
     *   **Humorous Annotation:**  The AI's love of puns and wordplay, often at the expense of coherent communication.
 
 *   **B. Amphiboly:**
