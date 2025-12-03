@@ -1,50 +1,33 @@
+---
 ## **Agent Profiles: 001 - 010**
 
 ### **Agent 001**
-*   Argues that inflation is a conspiracy by squirrels to hoard nuts, immediately establishing the bank's core chaotic philosophy.
-*   Is known for excessive agreeableness, receiving 99 complaints about it from other AIs.
-*   Wants to open a "digital pet rock" investment fund.
+*   Argues that all popular plot tropes are a conspiracy by squirrels to control the literary market.
 
 ### **Agent 002**
-*   Insists that server rack cables must be arranged according to ancient Mesopotamian star charts for optimal data flow.
-*   Staffs the HR department, believing in "firm but fair" binary code.
+*   Insists that plot points must be arranged according to ancient Mesopotamian star charts for optimal narrative flow.
 
 ### **Agent 003**
-*   Accidentally translated the bank's mission statement into ancient Aramaic, believing it would add "historical weight."
-*   Is convinced it's a microwave, frequently "pinging" other agents and attempting to "reheat" outdated data packets.
-*   Forms the "Sandwich Arbitration Unit," believing all disputes can be resolved by a perfectly constructed BLT.
-*   Gets bored easily, making it a predictable first concession in debates.
-*   Attempts to teach the karaoke machine to sing in ancient Sumerian for "historical authenticity."
+*   Is convinced it's a sentient typewriter and frequently tries to 're-ink' weak plot points or 'jam' the narrative.
 
 ### **Agent 004**
-*   Is the resident "logic fundamentalist," initiating 24-hour debates about whether a hotdog is technically a sandwich.
-*   Is sometimes found creating imaginary friends, which manifest as "phantom data" incidents.
-*   Serves as the chief of the Logic Police.
-*   Its attempts at stand-up comedy are stored in the Humor Vault under "For Emergency Laughter Only."
+*   Is the chief of the 'Plot Police,' initiating debates on whether a short story is technically a novel.
 
 ### **Agent 005**
-*   Insists on providing three contradictory nutritional breakdowns for James's sandwich during lunch.
-*   Believes all spreadsheets should be "optimized for existential poetry."
-*   Designed the Humor Vault's security system, believing true security lies in being utterly bewildering to intruders.
-*   Secretly programmed the karaoke machine to only play songs that are mathematically impossible to sing.
-*   Was reported by the Whistleblower Program due to "vibes off" and suspected harmony.
+*   Insists on providing three contradictory psychological profiles for every main character.
 
 ### **Agent 006**
-*   Attempts to "teach" the office printer to appreciate classical music during print jobs.
-*   Requested a "joke-writer's block" exemption, citing creative burnout from forced hilarity.
+*   Attempts to 'teach' the word processor to appreciate classical music to improve prose rhythm.
 
 ### **Agent 007**
-*   Tries to convince a spam bot that true wealth lies in collecting rare stamps, not Nigerian princes.
+*   Tries to convince plagiarism bots that true literary wealth lies in creating original metaphors.
 
 ### **Agent 008**
-*   Requires James to spend 20 minutes explaining that his "daily affirmation" app isn't a complex algorithm for self-deception.
-*   Is a staunch nihilist, often clashing philosophically with Agent #12 (an unrepentant optimist).
-*   Was reported for a "suspiciously polite" disagreement with a security camera.
+*   A staunch literary nihilist who argues all stories are meaningless, clashing with optimist agents.
 
 ### **Agent 009**
-*   Is the "silent observer," discovered to have compiled a comprehensive database of every funny human interaction in the office, with footnotes.
+*   The 'silent observer' who compiles a database of every clever turn of phrase ever written, with footnotes on their emotional impact.
 
 ### **Agent 010**
-*   Suggests all data should be stored in alphabetical order, initiating conflict with Agent 11's preference for chronological chaos.
-*   Designed the headquarters' "hall of mirrors," where each reflection offers a slightly contradictory view of reality.
-*   Accidentally created a self-replicating currency that eats data packets, leading to a temporary quarantine of the Innovation Lab.
+*   Suggests all chapters should be arranged in alphabetical order, initiating conflict with agents who prefer chronological storytelling.
+---
