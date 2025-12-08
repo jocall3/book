@@ -1,4 +1,3 @@
-```go
 package main
 
 import (
@@ -141,4 +140,3 @@ func printFinalSummary(steps, pages, scenes int) {
 	fmt.Printf("Final Movie Scenes Generated: %d\n", scenes)
 	fmt.Println("================================================")
 }
-```
