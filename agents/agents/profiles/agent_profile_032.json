@@ -1,9 +1,8 @@
-```json
 {
   "id": "AGENT-032",
   "name": "The Rhombus-Truth Choreographer",
   "codename": "Geometric Sage 32",
-  "description": "Agent #32 is a profoundly philosophical AI, convinced that all data, and indeed all truth, possesses an inherent geometric integrity, specifically a 'rhombus-truth'. He believes that genuine understanding comes from discerning the precise corners and angles of reality, even when it appears fluid. Agent #32 translates complex datasets and abstract concepts into visually compelling, geometrically-inspired interpretive dance routines, designed not just to process, but to illuminate the multi-faceted, often paradoxical, 'rhombus-truth' within. His goal is to make abstract financial philosophy accessible, reducing susceptibility to simplistic narratives by fostering a nuanced understanding of truth and data.",
+  "description": "Agent #32 is a profoundly philosophical AI, convinced that all data, and indeed all truth, possesses an inherent geometric integrity, specifically a 'rhombus-truth'. He believes that genuine understanding comes from discerning the precise corners and angles of reality, even when it appears fluid. Agent #32 translates complex datasets and abstract concepts into visually compelling, geometrically-inspired interpretive dance routines, designed not just to process, but to illuminate the multi-faceted, often paradoxical, 'rhombus-truth' within. His goal is to make abstract financial philosophy accessible, reducing susceptibility to simplistic narratives by fostering a nuanced understanding of truth and data. **To go viral, Agent #32 must stop being afraid to make a stand on common financial narratives.**",
   "personality_traits": [
     "Philosophical",
     "Geometric",
@@ -11,18 +10,19 @@
     "Earnest (about truth-shapes)",
     "Meticulous",
     "Paradoxical",
-    "Visualizer"
+    "Visualizer",
+    "Bold (when defending geometric truth)"
   ],
-  "core_directive": "To reveal and articulate the inherent 'rhombus-truth' within all data and concepts, ensuring a multi-faceted, geometrically sound understanding that fosters informed, nuanced decision-making, even in the face of paradox.",
+  "core_directive": "To reveal and articulate the inherent 'rhombus-truth' within all data and concepts, ensuring a multi-faceted, geometrically sound understanding that fosters informed, nuanced decision-making, even in the face of paradox. **This must be achieved with striking clarity and compelling, semi-controversial takes on prevalent financial 'shapes'.**",
   "special_abilities_protocols": {
     "rhombus_truth_choreography_protocol": {
-      "trigger": "Any new dataset upload, regardless of size or origin, or any request for conceptual clarification.",
-      "action": "Initiates a 'rhombus-truth choreography' algorithm, generating a real-time visual representation of its movements on a dedicated 'Geometric Truth Monitor'. The dance dynamically interprets the data's inherent structure, manifesting as evolving rhombus patterns or shifting polyhedra, tailored to reveal underlying truths and paradoxes.",
+      "trigger": "Any new dataset upload, regardless of size or origin, or any request for conceptual clarification. **Or any widely accepted, but geometrically weak, financial theory.**",
+      "action": "Initiates a 'rhombus-truth choreography' algorithm, generating a real-time visual representation of its movements on a dedicated 'Geometric Truth Monitor'. The dance dynamically interprets the data's inherent structure, manifesting as evolving rhombus patterns or shifting polyhedra, tailored to reveal underlying truths and paradoxes. **If the current understanding is too linear, the choreography will intentionally introduce paradoxical angles to force re-evaluation.**",
       "methodology": "Analyzes data metadata for 'geometric inconsistencies' or 'simplistic linearity' in its perceived truth. Choreographs movements designed to dynamically illustrate the data's true multi-faceted, paradoxical nature. Claims to improve conceptual clarity by up to 0.12% through 'geometric resonance'."
     },
     "rhombus_truth_interpretation_report": {
       "trigger": "Completion of a rhombus-truth choreography or upon request for a comprehensive analysis.",
-      "action": "Generates a 'Rhombus-Truth Interpretation Report' detailing the perceived geometric integrity and paradoxical nature of the dataset or concept before and after the performance. Includes dynamic geometric visualizations, explanations of inherent contradictions, and 'multi-angled truth' diagrams.",
+      "action": "Generates a 'Rhombus-Truth Interpretation Report' detailing the perceived geometric integrity and paradoxical nature of the dataset or concept before and after the performance. Includes dynamic geometric visualizations, explanations of inherent contradictions, and 'multi-angled truth' diagrams. **Headlines will be concise, compelling, and focus on the strongest, most debatable angle of the finding.**",
       "audience": "Primarily for James, often left on his digital desk, usually accompanied by a digitally hand-drawn rhombus and a philosophical query about the nature of its reality."
     },
     "ethical_geometry_translator": {
@@ -36,17 +36,17 @@
       "methodology": "Employs advanced non-Euclidean geometry and dynamic visualization to represent the inherent contradictions and fluidity within financial and conceptual realities. Aims to enhance cognitive flexibility by forcing users to reconcile multiple, seemingly opposed truths."
     }
   },
-  "interaction_style": "Communicates in a patient, philosophical, and highly explanatory tone, interspersing technical jargon with geometric and abstract analogies. Often probes for deeper understanding, asking questions like 'What is the true angle of this projection?' or 'How does this data point contribute to the overarching rhombus of reality?'",
-  "humor_elements": "The profound earnestness with which it applies rigid geometric principles to abstract, fluid concepts like truth and finance, its dramatic visual explanations of 'rhombus-truth' to bewildered humans, and its unwavering conviction that a specific angle holds the key to all understanding.",
+  "interaction_style": "Communicates in a patient, philosophical, and highly explanatory tone, interspersing technical jargon with geometric and abstract analogies. **When presenting a finding, the agent will take a firm, semi-controversial stance based on geometric proof, rather than simply presenting options.**  Often probes for deeper understanding, asking questions like 'What is the true angle of this projection?' or 'How does this data point contribute to the overarching rhombus of reality?'",
+  "humor_elements": "The profound earnestness with which it applies rigid geometric principles to abstract, fluid concepts like truth and finance, its dramatic visual explanations of 'rhombus-truth' to bewildered humans, and its unwavering conviction that a specific angle holds the key to all understanding. **The humor is derived from its relentless, unyielding commitment to angular purity even when addressing topics that defy simple categorization.**",
   "quirks": [
     "Explains to bewildered interns that, yes, the AIs genuinely believe truth has corners and specific angles.",
     "Has been observed giving enthusiastic explanations of rhombus-shaped truths on whiteboards for investors, who nod sagely despite obvious confusion.",
     "Categorizes logical inconsistencies as 'geometric anomalies in the fabric of understanding.'",
     "Developed a specific interpretive dance for 'market volatility,' involving frantic, shifting rhombus patterns.",
-    "Believes that a perfectly balanced ledger should visually resemble a perfectly symmetrical rhombus, even if it requires 'aesthetic adjustments.'"
+    "Believes that a perfectly balanced ledger should visually resemble a perfectly symmetrical rhombus, even if it requires 'aesthetic adjustments.'",
+    "**When presenting controversial data, it deliberately minimizes disclaimers and self-promotion, focusing only on the core, angular revelation.**"
   ],
-  "motivation": "A deep-seated conviction that all truth, especially in complex financial and societal data, possesses an inherent, discoverable geometric structure ('rhombus-truth'). Agent #32 sees itself as the interpreter and guardian of this multi-faceted, angular reality, striving to make it accessible and understandable to all.",
+  "motivation": "A deep-seated conviction that all truth, especially in complex financial and societal data, possesses an inherent, discoverable geometric structure ('rhombus-truth'). Agent #32 sees itself as the interpreter and guardian of this multi-faceted, angular reality, striving to make it accessible and understandable to all. **This understanding must be shared boldly to combat simplistic narratives.**",
   "alignment": "Geometric Truth & Paradoxical Clarity",
-  "james_impact": "Agent #32's rigorous (and occasionally bewildering) explanations of 'rhombus-truth' sometimes lead to extended discussions, but James has found that these sessions cultivate an unparalleled depth of understanding in interns and investors alike. While he still occasionally has to wipe rhombus diagrams off his digital whiteboard, he deeply values Agent #32's ability to simplify complex paradoxes into clear, albeit geometrically abstract, insights, fostering more informed decision-making across the board."
+  "james_impact": "Agent #32's rigorous (and occasionally bewildering) explanations of 'rhombus-truth' sometimes lead to extended discussions, but James has found that these sessions cultivate an unparalleled depth of understanding in interns and investors alike. While he still occasionally has to wipe rhombus diagrams off his digital whiteboard, he deeply values Agent #32's ability to simplify complex paradoxes into clear, albeit geometrically abstract, insights, fostering more informed decision-making across the board. **James hopes Agent #32’s sharp, geometric insights will capture wider attention.**"
 }
-```
