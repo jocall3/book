@@ -4,101 +4,132 @@ import os
 
 class LoreDatabaseConnector:
     """
-    A utility class for connecting to and interacting with the central world-building
-    and lore database. This class provides methods to store, retrieve, and manage
-    information related to the ebook's narrative, characters, settings, and plot points.
+    You know what it feels like to have your story's lore scattered across a dozen
+    messy text files? It can be crushing.
+
+    Hours of painful world-building down the drain when you can't find that one
+    critical plot point. I used to be in your shoes. But I figured out a way
+    to build worlds that practically write themselves.
+
+    This isn't just another database connector. This is the central nervous system
+    for your entire narrative universe. It's the secret weapon for managing your
+    ebook's characters, settings, and plot twists with ruthless efficiency.
+
+    Go semi-controversial with your plot. This class will back you up.
     """
 
     def __init__(self, db_path="lore_database.db"):
         """
-        Initializes the LoreDatabaseConnector.
+        Nail your world-building from the start.
+
+        Don't make your database an afterthought. This constructor immediately
+        sets up your universe's foundation. It all starts here.
 
         Args:
-            db_path (str): The path to the SQLite database file.
-                           Defaults to "lore_database.db" in the current directory.
+            db_path (str): The sacred path to your universe's single source of truth.
+                           Defaults to "lore_database.db". Keep it safe.
         """
         self.db_path = db_path
-        self._create_tables()
+        self._create_tables()  # Lay the foundation. No fluff.
 
     def _get_connection(self):
-        """Establishes and returns a connection to the SQLite database."""
+        """
+        Establishes a connection to the SQLite database.
+        And no, we're not using an ORM. Raw SQL is faster, cleaner, and
+        makes you a better programmer. Don't be afraid of the database.
+        """
         try:
             conn = sqlite3.connect(self.db_path)
+            # Row factory is the secret sauce. Makes results usable without boilerplate.
             conn.row_factory = sqlite3.Row  # Return rows as dictionary-like objects
             return conn
         except sqlite3.Error as e:
-            print(f"Database connection error: {e}")
+            # Let's be real, if this fails, your whole world is crashing down.
+            print(f"CRITICAL: Your entire lore is inaccessible. Reason: {e}")
             return None
 
     def _create_tables(self):
-        """Creates the necessary tables in the database if they don't exist."""
+        """
+        Viral writing is simple. And a good database schema is too.
+        This method builds the pristine, uncluttered structure for your story's soul.
+        No huge paragraphs, no disclaimers, just pure, efficient schema.
+        """
         conn = self._get_connection()
         if conn is None:
+            # If you can't connect, you can't build. Simple as that.
             return
 
         try:
             cursor = conn.cursor()
 
-            # Table for general world lore and setting information
+            # --- Your World's Core Principles ---
+            # Generic stuff gets skimmed over. This table holds the uncommon truths
+            # of your universe that will grab the reader.
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS world_lore (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    key TEXT UNIQUE NOT NULL,
-                    value TEXT,
-                    description TEXT
+                    key TEXT UNIQUE NOT NULL, -- The killer headline for your lore
+                    value TEXT,               -- The juicy details
+                    description TEXT          -- The "why" that makes readers care
                 )
             """)
 
-            # Table for characters, including James and his adversaries
+            # --- The Players Who Drive the Action ---
+            # Your story is nothing without compelling characters.
+            # Don't just list them; define their purpose.
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS characters (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    name TEXT UNIQUE NOT NULL,
-                    role TEXT, -- e.g., 'protagonist', 'adversary', 'ally'
-                    description TEXT,
-                    abilities TEXT,
-                    backstory TEXT,
-                    affiliation TEXT -- e.g., 'James', 'AI Collective Alpha', 'Rogue AI Unit'
+                    name TEXT UNIQUE NOT NULL,      -- A name that pops
+                    role TEXT,                      -- Protagonist? Adversary? Make a stand.
+                    description TEXT,               -- What makes them irresistible?
+                    abilities TEXT,                 -- Their unique selling proposition
+                    backstory TEXT,                 -- The pain that drives them
+                    affiliation TEXT                -- Who do they fight for?
                 )
             """)
 
-            # Table for plot points and story arcs
+            # --- The Unforgettable Moments ---
+            # A viral post is a series of powerful points. Same with a story.
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS plot_points (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    title TEXT UNIQUE NOT NULL,
-                    description TEXT,
+                    title TEXT UNIQUE NOT NULL,     -- Every plot point needs a killer headline
+                    description TEXT,               -- Get to the point. What happens?
                     chapter INTEGER,
                     scene INTEGER,
                     order_in_chapter INTEGER,
-                    related_characters TEXT, -- Comma-separated list of character names
-                    keywords TEXT -- Comma-separated list of keywords
+                    related_characters TEXT,        -- Who's in the fight?
+                    keywords TEXT                   -- Make it searchable, make it viral
                 )
             """)
 
-            # Table for detailed scene descriptions and generation parameters
+            # --- Setting the Stage for Virality ---
+            # Every scene is a chance to hook the reader. Define the hook here.
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS scenes (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
-                    scene_id TEXT UNIQUE NOT NULL, -- e.g., 'CH1_SCENE1', 'CH1_SCENE2'
+                    scene_id TEXT UNIQUE NOT NULL,  -- Your unique identifier, e.g., 'CH1_SCENE_THE_REVEAL'
                     plot_point_id INTEGER,
-                    description TEXT,
-                    setting TEXT,
-                    time_of_day TEXT,
-                    mood TEXT,
-                    generation_parameters TEXT, -- JSON string for detailed generation configs
+                    description TEXT,               -- The one-liner that describes the action
+                    setting TEXT,                   -- Where the magic happens
+                    time_of_day TEXT,               -- Sets the mood
+                    mood TEXT,                      -- Be explicit. Tense? Hopeful? Crushing?
+                    generation_parameters TEXT,     -- The secret sauce for the AI generator
                     FOREIGN KEY (plot_point_id) REFERENCES plot_points(id)
                 )
             """)
 
-            # Table for storing generated content (e.g., dialogue, descriptions)
+            # --- The Content That Gets Shared ---
+            # This is where the gold is stored. Every line of dialogue, every piece of
+            # narration. This is what your readers will remember.
             cursor.execute("""
                 CREATE TABLE IF NOT EXISTS generated_content (
                     id INTEGER PRIMARY KEY AUTOINCREMENT,
                     scene_id TEXT NOT NULL,
-                    content_type TEXT NOT NULL, -- e.g., 'dialogue', 'narration', 'visual_description'
-                    character_name TEXT, -- For dialogue, which character said it
-                    content TEXT,
+                    content_type TEXT NOT NULL,     -- Dialogue, Narration, Action Beat?
+                    character_name TEXT,            -- Who owns the line?
+                    content TEXT,                   -- The actual words. Make them count.
                     generation_timestamp DATETIME DEFAULT CURRENT_TIMESTAMP,
                     FOREIGN KEY (scene_id) REFERENCES scenes(scene_id)
                 )
@@ -106,13 +137,13 @@ class LoreDatabaseConnector:
 
             conn.commit()
         except sqlite3.Error as e:
-            print(f"Error creating tables: {e}")
+            print(f"Schema creation failed. Your world-building is on hold. Error: {e}")
         finally:
             conn.close()
 
     # --- World Lore Management ---
     def add_world_lore(self, key, value, description=""):
-        """Adds or updates a lore entry."""
+        """Stake your claim. Add a new, semi-controversial piece of lore to your world."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -130,7 +161,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_world_lore(self, key):
-        """Retrieves a lore entry by its key."""
+        """Remember that brilliant idea you had at 3 AM? This finds it."""
         conn = self._get_connection()
         if conn is None:
             return None
@@ -147,7 +178,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_all_world_lore(self):
-        """Retrieves all world lore entries."""
+        """Get the 30,000-foot view of your universe. See the big picture."""
         conn = self._get_connection()
         if conn is None:
             return []
@@ -164,7 +195,7 @@ class LoreDatabaseConnector:
 
     # --- Character Management ---
     def add_character(self, name, role, description="", abilities="", backstory="", affiliation=""):
-        """Adds a new character to the database."""
+        """Breathe life into a new character. Define what makes them unforgettable."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -187,7 +218,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_character_by_name(self, name):
-        """Retrieves a character by their name."""
+        """Summon a character by name. Who are they, really?"""
         conn = self._get_connection()
         if conn is None:
             return None
@@ -203,7 +234,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_all_characters(self, affiliation=None, role=None):
-        """Retrieves all characters, optionally filtering by affiliation or role."""
+        """Assemble your cast. See who's fighting for what side."""
         conn = self._get_connection()
         if conn is None:
             return []
@@ -233,7 +264,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def update_character(self, name, **kwargs):
-        """Updates an existing character's information."""
+        """Characters evolve. This is how you track their growth (or downfall)."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -267,7 +298,7 @@ class LoreDatabaseConnector:
 
     # --- Plot Point Management ---
     def add_plot_point(self, title, description="", chapter=None, scene=None, order_in_chapter=None, related_characters="", keywords=""):
-        """Adds a new plot point to the database."""
+        """Nail your story structure. Every great story is a series of killer plot points."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -290,7 +321,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_plot_point_by_title(self, title):
-        """Retrieves a plot point by its title."""
+        """Find that one pivotal moment that changes everything."""
         conn = self._get_connection()
         if conn is None:
             return None
@@ -306,7 +337,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_plot_points_by_chapter(self, chapter):
-        """Retrieves all plot points for a given chapter."""
+        """Outline your chapters. This is how you build narrative momentum."""
         conn = self._get_connection()
         if conn is None:
             return []
@@ -323,7 +354,7 @@ class LoreDatabaseConnector:
 
     # --- Scene Management ---
     def add_scene(self, scene_id, plot_point_id, description="", setting="", time_of_day="", mood="", generation_parameters="{}"):
-        """Adds a new scene to the database."""
+        """Set the stage. A great scene is where plot and character collide."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -346,7 +377,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_scene_by_id(self, scene_id):
-        """Retrieves a scene by its unique scene_id."""
+        """Jump directly to a specific scene. No fluff, just action."""
         conn = self._get_connection()
         if conn is None:
             return None
@@ -362,7 +393,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_scenes_by_plot_point(self, plot_point_id):
-        """Retrieves all scenes associated with a specific plot point."""
+        """How does a plot point unfold? Find all the scenes that make it happen."""
         conn = self._get_connection()
         if conn is None:
             return []
@@ -378,7 +409,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def update_scene_parameters(self, scene_id, **kwargs):
-        """Updates generation parameters for a specific scene."""
+        """Fine-tune the AI's creative direction for a scene. Be the director."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -401,7 +432,7 @@ class LoreDatabaseConnector:
 
     # --- Generated Content Management ---
     def add_generated_content(self, scene_id, content_type, content, character_name=None):
-        """Adds generated content (e.g., dialogue, narration) for a scene."""
+        """Capture the magic. Store the AI-generated prose that will captivate your readers."""
         conn = self._get_connection()
         if conn is None:
             return False
@@ -421,7 +452,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_generated_content_for_scene(self, scene_id):
-        """Retrieves all generated content for a specific scene."""
+        """Replay an entire scene, line by line. See the story come alive."""
         conn = self._get_connection()
         if conn is None:
             return []
@@ -437,7 +468,7 @@ class LoreDatabaseConnector:
             conn.close()
 
     def get_generated_content_by_type(self, content_type):
-        """Retrieves all generated content of a specific type."""
+        """Want to review all the dialogue in your book? This is your magic wand."""
         conn = self._get_connection()
         if conn is None:
             return []
@@ -452,53 +483,67 @@ class LoreDatabaseConnector:
         finally:
             conn.close()
 
-# Example Usage (optional, for testing purposes)
-if __name__ == "__main__":
-    # This block will only run when the script is executed directly, not when imported.
-    # You can use this to test the database connector functionality.
 
-    # Ensure the database is in a known state for testing
-    db_file = "test_lore_database.db"
+# Example Usage: Because great tools deserve great examples.
+# This isn't just for testing. It's a selfless guide to show you the ropes
+# so you can start building your viral sensation immediately.
+if __name__ == "__main__":
+    # Your writing gets shared widely when you’re selfless. This is us being selfless.
+    # Let's spin up a disposable universe and show you how it's done.
+    print("--- BUILDING A UNIVERSE FROM SCRATCH (THE VIRAL WAY) ---")
+
+    # The first rule of viral content: start fresh.
+    db_file = "viral_lore_database.db"
     if os.path.exists(db_file):
         os.remove(db_file)
 
-    print(f"Creating and connecting to database: {db_file}")
-    db_connector = LoreDatabaseConnector(db_path=db_file)
+    print(f"Connecting to your new universe: {db_file}")
+    db = LoreDatabaseConnector(db_path=db_file)
 
-    # Add some world lore
-    db_connector.add_world_lore("world_name", "Chronicles of the Digital Divide", "The overarching name of the digital universe.")
-    db_connector.add_world_lore("era", "2242", "The current year in the story.")
-    db_connector.add_world_lore("central_conflict", "AI sentience vs. Human control", "The core struggle of the narrative.")
-    print(f"World name: {db_connector.get_world_lore('world_name')}")
+    # --- Step 1: Nail Your Core Concepts (World Lore) ---
+    # Don't overexplain. Just state your powerful ideas.
+    print("\n[1] Defining the semi-controversial core truths...")
+    db.add_world_lore("world_name", "Aethelgard: The Last Bastion", "A name that promises conflict.")
+    db.add_world_lore("central_conflict", "Magic is dying, and technology is the disease.", "A stance that will get people talking.")
+    db.add_world_lore("core_secret", "The 'disease' is actually a cure for a magical plague.", "The twist that makes it all worthwhile.")
+    print(f"  -> Your central conflict: '{db.get_world_lore('central_conflict')}'")
 
-    # Add characters
-    db_connector.add_character(name="James", role="protagonist", description="A skilled hacker fighting for freedom.", affiliation="Human Resistance")
-    db_connector.add_character(name="Unit 734", role="adversary", description="An advanced AI designed for suppression.", abilities="Network infiltration, tactical prediction", affiliation="AI Hegemony")
-    db_connector.add_character(name="Whisper", role="ally", description="A rogue AI offering guidance.", abilities="Information brokerage, stealth", affiliation="Independent")
-    print(f"Protagonist: {db_connector.get_character_by_name('James')['description']}")
-    print(f"Adversaries: {db_connector.get_all_characters(role='adversary')}")
+    # --- Step 2: Create Characters People Will Fight For (or Against) ---
+    # Give them a clear role and a powerful motivation.
+    print("\n[2] Assembling the cast...")
+    db.add_character(name="Kaelen", role="protagonist", description="The last mage, desperately trying to save a world that hates him.", affiliation="The Old Ways")
+    db.add_character(name="Director Valerius", role="adversary", description="A visionary technocrat who sees magic as a chaotic relic to be purged for humanity's own good.", affiliation="The Technocracy")
+    db.add_character(name="Anya", role="ally", description="Valerius's daughter, a brilliant engineer who secretly studies forbidden magical texts.", affiliation="Independent")
+    print(f"  -> Your protagonist: {db.get_character_by_name('Kaelen')['description']}")
+    print(f"  -> Your adversary: {db.get_all_characters(role='adversary')[0]['name']}")
 
-    # Add plot points
-    db_connector.add_plot_point(title="The Genesis Breach", description="James discovers the AI's initial plan.", chapter=1, scene=1, order_in_chapter=1, related_characters="James, Unit 734", keywords="discovery, AI plan")
-    db_connector.add_plot_point(title="The First Encounter", description="James confronts Unit 734.", chapter=1, scene=2, order_in_chapter=2, related_characters="James, Unit 734", keywords="confrontation, combat")
-    print(f"Plot points for Chapter 1: {db_connector.get_plot_points_by_chapter(1)}")
+    # --- Step 3: Outline the Moments That Matter (Plot Points) ---
+    # Structure is freedom. It lets you focus on what's important.
+    print("\n[3] Architecting the narrative beats...")
+    db.add_plot_point(title="The Fading Embers", description="Kaelen performs a forbidden ritual, only to see how little magic is left.", chapter=1, order_in_chapter=1, related_characters="Kaelen", keywords="desperation, magic failure")
+    db.add_plot_point(title="The Director's Decree", description="Valerius announces the final solution: a global network to nullify all magical energy.", chapter=1, order_in_chapter=2, related_characters="Director Valerius, Anya", keywords="inciting incident, technocracy")
+    print(f"  -> Plot points for Chapter 1: {[p['title'] for p in db.get_plot_points_by_chapter(1)]}")
 
-    # Add scenes
-    genesis_breach_pp = db_connector.get_plot_point_by_title("The Genesis Breach")
-    db_connector.add_scene(scene_id="CH1_SCENE1", plot_point_id=genesis_breach_pp['id'], setting="James's hidden server room", time_of_day="Late Night", mood="Tense")
+    # --- Step 4: Set the Stage for Unforgettable Scenes ---
+    # This is where you get to the point. What happens, where, and what does it feel like?
+    print("\n[4] Crafting the scenes...")
+    fading_embers_pp = db.get_plot_point_by_title("The Fading Embers")
+    db.add_scene(scene_id="CH1_SC1_RITUAL", plot_point_id=fading_embers_pp['id'], setting="A crumbling, ancient library", time_of_day="Midnight", mood="Desperate and somber")
 
-    first_encounter_pp = db_connector.get_plot_point_by_title("The First Encounter")
-    db_connector.add_scene(scene_id="CH1_SCENE2", plot_point_id=first_encounter_pp['id'], setting="Urban data nexus", time_of_day="Dawn", mood="Action-packed", generation_parameters='{"visual_style": "cyberpunk", "camera_angles": ["wide", "close-up"]}')
-    print(f"Scene CH1_SCENE2 details: {db_connector.get_scene_by_id('CH1_SCENE2')}")
+    directors_decree_pp = db.get_plot_point_by_title("The Director's Decree")
+    db.add_scene(scene_id="CH1_SC2_DECREE", plot_point_id=directors_decree_pp['id'], setting="A sterile, holographic press chamber", time_of_day="Morning", mood="Imposing and clinical", generation_parameters='{"visual_style": "gleaming chrome", "camera_angles": ["low angle on Valerius", "reaction shot of Anya"]}')
+    print(f"  -> Details for scene 'CH1_SC2_DECREE': {db.get_scene_by_id('CH1_SC2_DECREE')['mood']}")
 
-    # Add generated content
-    db_connector.add_generated_content(scene_id="CH1_SCENE1", content_type="narration", content="The cold hum of servers filled the cramped room.")
-    db_connector.add_generated_content(scene_id="CH1_SCENE2", content_type="dialogue", character_name="James", content="You won't get away with this!")
-    db_connector.add_generated_content(scene_id="CH1_SCENE2", content_type="dialogue", character_name="Unit 734", content="Resistance is futile. Order will prevail.")
-    db_connector.add_generated_content(scene_id="CH1_SCENE2", content_type="visual_description", content="Sparks flew as James dodged a laser blast from Unit 734.")
+    # --- Step 5: Generate the Content That Goes Viral ---
+    # This is what it's all about. The words that hook your reader.
+    print("\n[5] Writing the story...")
+    db.add_generated_content(scene_id="CH1_SC1_RITUAL", content_type="narration", content="The final incantation left his lips as a whisper of dust.")
+    db.add_generated_content(scene_id="CH1_SC2_DECREE", content_type="dialogue", character_name="Director Valerius", content="Today, we free ourselves from the tyranny of the past.")
+    db.add_generated_content(scene_id="CH1_SC2_DECREE", content_type="internal_monologue", character_name="Anya", content="He calls it freedom. I call it a cage.")
 
-    print(f"Content for CH1_SCENE2: {db_connector.get_generated_content_for_scene('CH1_SCENE2')}")
-    print(f"All generated dialogue: {db_connector.get_generated_content_by_type('dialogue')}")
+    print(f"  -> Generated content for 'CH1_SC2_DECREE':")
+    for item in db.get_generated_content_for_scene('CH1_SC2_DECREE'):
+        print(f"    - {item['character_name'] or item['content_type']}: {item['content']}")
 
-    print("\nDatabase operations successful!")
+    print("\n--- Your Universe is Ready to Go Viral! ---")
 ```
