@@ -1,79 +1,97 @@
 /**
- * AI Debate Visualizer
- * A JavaScript library for visualizing real-time debates between multiple AI entities.
- * This component uses D3.js for rendering a force-directed graph of the debate.
+ * The Un-Boring AI Debate Visualizer: Go Viral or Go Home.
  *
- * @version 1.0.0
- * @author Project Architect
+ * Ever seen AIs argue? It's chaos. Beautiful, data-driven chaos.
+ * This isn't your grandpa's charting library. We're talking real-time,
+ * force-directed, "who's-schooling-who" visualizations of AI debates.
+ * Forget boring logs. See the argument. Feel the tension.
  *
- * Assumes D3.js (v6 or later) is available in the environment.
+ * Your users will thank you. Your engagement metrics will explode.
+ *
+ * Built with the legendary D3.js because we don't mess around.
+ *
+ * @version 2.0.0-viral
+ * @author The Viral Architect
+ *
+ * P.S. If you don't have D3.js, this will spectacularly fail. You've been warned.
  */
 
-class AIDebateVisualizer {
+class AIDebateArena {
     /**
-     * Initializes the debate visualizer.
-     * @param {string} containerId The ID of the DOM element to render the visualization in.
-     * @param {object} [options={}] Configuration options for the visualizer.
+     * Kicks things off and sets the stage for the AI showdown.
+     * @param {string} containerId The ID of the DOM element where the magic will happen.
+     * @param {object} [options={}] Fine-tune the visuals. Make it your own.
      */
     constructor(containerId, options = {}) {
         this.containerId = containerId;
         this.container = document.getElementById(containerId);
 
         if (!this.container) {
-            throw new Error(`Container element with id "${containerId}" not found.`);
+            // If you can't find the container, you can't have a debate. Simple.
+            throw new Error(`Container element with id "${containerId}" not found. Can't draw without a canvas.`);
         }
         if (typeof d3 === 'undefined') {
-            throw new Error('D3.js is not loaded. This library is a required dependency.');
+            // Seriously, we warned you in the header.
+            throw new Error('D3.js is not loaded. This is a non-negotiable dependency.');
         }
 
         this.nodes = [];
         this.links = [];
         this.nodeMap = new Map();
 
-        this._applyOptions(options);
-        this._initSVG();
-        this._initSimulation();
-        this._initMarkers();
+        this._applyViralOptions(options);
+        this._setupTheStage();
+        this._unleashTheChaos();
+        this._initMarkers(); // Arrows are non-negotiable in a good fight.
         this._initTooltip();
     }
 
     /**
-     * Applies user-defined options over defaults.
-     * @param {object} options - The user-provided options.
+     * Applies user-defined options over our "perfect" defaults.
+     * @param {object} options - Your chance to override greatness.
      */
-    _applyOptions(options) {
+    _applyViralOptions(options) {
         const defaults = {
             colors: {
-                background: '#0a0f1a',
-                human: '#42a5f5',
-                ai: '#7e57c2',
-                argument: '#4db6ac',
-                link: '#445172',
-                rebuttal: '#ef5350',
-                support: '#66bb6a',
-                highlight: '#ffca28',
+                background: '#0a0f1a', // Dark, because the future of AI is uncertain.
+                human: '#42a5f5',      // A calming blue for the fleshy participants. For now.
+                ai: '#7e57c2',          // Purple. The color of royalty and rogue AIs.
+                argument: '#4db6ac',    // Teal. The color of profound, debate-winning ideas.
+                link: '#445172',        // A subtle connection, because all ideas are connected.
+                rebuttal: '#ef5350',    // The fiery red of a point being viciously dismantled.
+                support: '#66bb6a',     // The gentle green of "I got your back, bro."
+                highlight: '#ffca28',    // Bling! For when a node is the star of the show.
             },
             sizes: {
-                participant: 15,
-                argument: 6,
+                participant: 15, // Participants are the heavyweights.
+                argument: 6,     // Arguments are plentiful, but smaller.
             },
             forces: {
-                charge: -250,
-                linkDistance: 70,
+                charge: -420, // A bit of chaos makes things interesting. Don't be afraid to push.
+                linkDistance: 80, // Close, but not too close. Even nodes need personal space.
             },
             zoom: {
-                min: 0.1,
-                max: 8,
+                min: 0.1, // Zoom out to see the whole glorious mess.
+                max: 8,   // Zoom in on the juicy details.
             }
         };
-        this.options = { ...defaults, ...options };
+        // User options are king. But our defaults? *chef's kiss*
+        // A proper deep merge for nested objects, because we care.
+        this.options = {
+            ...defaults,
+            ...options,
+            colors: { ...defaults.colors, ...(options.colors || {}) },
+            sizes: { ...defaults.sizes, ...(options.sizes || {}) },
+            forces: { ...defaults.forces, ...(options.forces || {}) },
+            zoom: { ...defaults.zoom, ...(options.zoom || {}) },
+        };
     }
 
     /**
-     * Sets up the main SVG container and groups.
+     * Sets up the SVG canvas. This is our Colosseum.
      */
-    _initSVG() {
-        this.container.innerHTML = ''; // Clear previous content
+    _setupTheStage() {
+        this.container.innerHTML = ''; // Wipe the slate clean.
         this.width = this.container.clientWidth;
         this.height = this.container.clientHeight;
 
@@ -85,7 +103,7 @@ class AIDebateVisualizer {
             .call(d3.zoom().scaleExtent([this.options.zoom.min, this.options.zoom.max]).on('zoom', (event) => {
                 this.mainGroup.attr('transform', event.transform);
             }))
-            .on("dblclick.zoom", null); // Disable double-click zoom
+            .on("dblclick.zoom", null); // Double-click zoom is for amateurs.
 
         this.mainGroup = this.svg.append('g');
         this.linkGroup = this.mainGroup.append('g').attr('class', 'links');
@@ -93,7 +111,8 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Defines SVG markers for arrowheads on links.
+     * Defines SVG markers for fiery rebuttal arrows and supportive agreement arrows.
+     * A debate without arrows is just a conversation.
      */
     _initMarkers() {
         const defs = this.svg.append('defs');
@@ -116,9 +135,10 @@ class AIDebateVisualizer {
     }
     
     /**
-     * Initializes the D3 force simulation.
+     * Initializes the D3 force simulation. This is the physics engine of our little universe.
+     * It's what makes the nodes dance.
      */
-    _initSimulation() {
+    _unleashTheChaos() {
         this.simulation = d3.forceSimulation(this.nodes)
             .force('link', d3.forceLink(this.links).id(d => d.id).distance(this.options.forces.linkDistance))
             .force('charge', d3.forceManyBody().strength(this.options.forces.charge))
@@ -127,7 +147,8 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Creates a tooltip element to show node details on hover.
+     * Creates a tooltip to reveal the juicy details on hover.
+     * Because what's an argument without its text?
      */
     _initTooltip() {
         this.tooltip = d3.select(this.container)
@@ -144,15 +165,18 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Adds a participant to the debate.
-     * @param {object} participantData - The participant's data.
-     * @param {string} participantData.id - Unique ID for the participant.
-     * @param {string} participantData.name - Display name.
-     * @param {string} [participantData.type='ai'] - 'ai' or 'human'.
+     * Throws a new contender into the ring.
+     * Call this to introduce a new AI or a brave human to the debate floor.
+     * Every great story needs its characters.
+     *
+     * @param {object} participantData - The dossier on your new debater.
+     * @param {string} participantData.id - Their unique handle. No duplicates, please.
+     * @param {string} participantData.name - What we'll call them when they're famous.
+     * @param {string} [participantData.type='ai'] - Are they 'ai' or 'human'? Choose wisely.
      */
     addParticipant(participantData) {
         if (this.nodeMap.has(participantData.id)) {
-            console.warn(`Participant with ID ${participantData.id} already exists.`);
+            console.warn(`Hold up! Participant with ID ${participantData.id} is already in the arena.`);
             return;
         }
 
@@ -167,21 +191,24 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Posts a new argument to the debate.
-     * @param {object} argumentData - The argument's data.
-     * @param {string} argumentData.id - Unique ID for the argument.
-     * @param {string} argumentData.participantId - ID of the participant making the argument.
-     * @param {string} argumentData.text - The content of the argument.
+     * Let the words fly! Post a new argument, rebuttal, or supportive comment.
+     * This is where the action happens. An argument connects a participant to an idea,
+     * or one idea to another.
+     *
+     * @param {object} argumentData - The argument's payload.
+     * @param {string} argumentData.id - Unique ID for this pearl of wisdom.
+     * @param {string} argumentData.participantId - Who's saying this?
+     * @param {string} argumentData.text - The actual argument. Make it count.
      * @param {string|null} [argumentData.parentId=null] - ID of the argument being responded to.
-     * @param {string} [argumentData.relation='argument'] - 'argument', 'rebuttal', or 'support'.
+     * @param {string} [argumentData.relation='argument'] - The flavor of the argument. Is it a 'rebuttal', 'support', or a fresh 'argument'?
      */
     postArgument(argumentData) {
         if (!this.nodeMap.has(argumentData.participantId)) {
-            console.error(`Participant with ID ${argumentData.participantId} not found.`);
+            console.error(`Can't post argument: Participant ${argumentData.participantId} isn't in the debate.`);
             return;
         }
         if (this.nodeMap.has(argumentData.id)) {
-            console.warn(`Argument with ID ${argumentData.id} already exists.`);
+            console.warn(`This argument ID is taken: ${argumentData.id}. Try being more original.`);
             return;
         }
 
@@ -192,19 +219,19 @@ class AIDebateVisualizer {
         this.nodes.push(newNode);
         this.nodeMap.set(newNode.id, newNode);
 
-        // Link from participant to the new argument
+        // Link from author to their brilliant idea.
         this.links.push({
             source: argumentData.participantId,
             target: argumentData.id,
             type: 'authorship'
         });
 
-        // Link from parent argument if it's a reply
+        // If it's a reply, link it to the parent argument.
         if (argumentData.parentId && this.nodeMap.has(argumentData.parentId)) {
             this.links.push({
                 source: argumentData.id,
                 target: argumentData.parentId,
-                type: argumentData.relation || 'rebuttal'
+                type: argumentData.relation || 'rebuttal' // Default to rebuttal, because arguments are fun.
             });
         }
 
@@ -212,8 +239,9 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Updates the visual state of a node (participant or argument).
-     * @param {string} nodeId - The ID of the node to update.
+     * Make a node stand out. Or fade into the background.
+     * Use this to highlight activity, like when an AI is "thinking" or a point is being actively discussed.
+     * @param {string} nodeId - The ID of the node to give some love.
      * @param {object} state - The new state properties (e.g., { active: true }).
      */
     updateNodeState(nodeId, state) {
@@ -222,15 +250,17 @@ class AIDebateVisualizer {
             Object.assign(node, state);
             this._update();
         } else {
-            console.warn(`Node with ID ${nodeId} not found for state update.`);
+            console.warn(`Tried to update a ghost node: ID ${nodeId} not found.`);
         }
     }
 
     /**
-     * Updates the D3 simulation and re-renders the graph.
+     * The grand renderer. Takes the latest data and makes the screen beautiful.
+     * This is called automatically. You don't need to touch this. Seriously.
      */
     _update() {
-        // Update links
+        // === LINK UPDATES ===
+        // Bind the link data and handle enter/exit.
         this.linkElements = this.linkGroup
             .selectAll('line')
             .data(this.links, d => `${d.source.id}-${d.target.id}`)
@@ -240,45 +270,46 @@ class AIDebateVisualizer {
                 if (d.type === 'support') return this.options.colors.support;
                 return this.options.colors.link;
             })
-            .style('stroke-width', d => (d.type === 'authorship' ? 1 : 2))
+            .style('stroke-width', d => (d.type === 'authorship' ? 1 : 2.5)) // Beef up the argument links.
             .attr('marker-end', d => {
                  if (d.type === 'rebuttal') return 'url(#rebuttal-arrow)';
                  if (d.type === 'support') return 'url(#support-arrow)';
-                 return null;
+                 return null; // Authorship links don't need arrows. That'd be weird.
             });
 
-        // Update nodes
+        // === NODE UPDATES ===
+        // Same deal for nodes. Bind data, handle enter/update/exit.
         this.nodeElements = this.nodeGroup
             .selectAll('g.node-group')
             .data(this.nodes, d => d.id)
             .join(
                 enter => this._createNodeElements(enter),
                 update => this._updateNodeElements(update),
-                exit => exit.transition().duration(300).attr('opacity', 0).remove()
+                exit => exit.transition().duration(300).style('opacity', 0).remove() // Fade out, don't just vanish.
             );
 
-        // Restart simulation with new data
+        // Give the simulation a shot of espresso to wake it up.
         this.simulation.nodes(this.nodes);
         this.simulation.force('link').links(this.links);
         this.simulation.alpha(0.3).restart();
     }
 
     /**
-     * Creates new SVG elements for entering nodes.
-     * @param {d3.Selection} enter - The D3 enter selection.
+     * Creates the SVG elements for a new node entering the arena.
+     * @param {d3.Selection} enter - The D3 enter selection for new nodes.
      */
     _createNodeElements(enter) {
         const nodeGroup = enter.append('g')
             .attr('class', 'node-group')
-            .call(this._dragHandler());
+            .call(this._dragHandler()); // Make 'em draggable. Let the user organize the chaos.
 
-        // Main circle for the node
+        // The main circle. The heart of the node.
         nodeGroup.append('circle')
             .attr('r', d => (d.nodeType === 'participant' ? this.options.sizes.participant : this.options.sizes.argument))
             .style('stroke', '#fff')
             .style('stroke-width', 1.5);
 
-        // Label for participants
+        // Label for the big shots (the participants).
         nodeGroup.append('text')
             .text(d => (d.nodeType === 'participant' ? d.name : ''))
             .attr('x', d => this.options.sizes.participant + 5)
@@ -286,19 +317,21 @@ class AIDebateVisualizer {
             .style('fill', '#ccc')
             .style('font-family', 'sans-serif')
             .style('font-size', '12px')
-            .style('pointer-events', 'none');
+            .style('pointer-events', 'none'); // Don't let the text block mouse events.
 
-        // Apply initial styles and event handlers
+        // Apply the dynamic styles and event handlers.
         this._updateNodeElements(nodeGroup);
 
         return nodeGroup;
     }
 
     /**
-     * Updates attributes of existing SVG elements for nodes.
-     * @param {d3.Selection} update - The D3 update selection.
+     * Updates the styles and attributes of existing nodes.
+     * This is where we make them shine, glow, or whatever the state calls for.
+     * @param {d3.Selection} update - The D3 update selection for existing nodes.
      */
     _updateNodeElements(update) {
+        // Animate the style changes. It's just classier.
         update.select('circle')
             .transition().duration(300)
             .style('fill', d => {
@@ -310,10 +343,13 @@ class AIDebateVisualizer {
             .style('stroke', d => (d.active ? this.options.colors.highlight : '#fff'))
             .style('stroke-width', d => (d.active ? 3 : 1.5));
             
+        // Handle the mouseover tooltips.
         update
             .on('mouseover', (event, d) => {
-                this.tooltip.style('visibility', 'visible')
-                           .html(d.nodeType === 'participant' ? `<b>${d.name}</b><br/>Type: ${d.type}` : `<b>Argument:</b><br/>${d.text}`);
+                const tooltipContent = d.nodeType === 'participant' 
+                    ? `<b>${d.name}</b><br/>Type: ${d.type}` 
+                    : `<b>Argument:</b><br/>${d.text}`;
+                this.tooltip.style('visibility', 'visible').html(tooltipContent);
             })
             .on('mousemove', (event) => {
                 this.tooltip.style('top', (event.pageY - 10) + 'px').style('left', (event.pageX + 10) + 'px');
@@ -324,7 +360,8 @@ class AIDebateVisualizer {
     }
 
     /**
-     * The 'tick' function called by D3 on each simulation step.
+     * The heartbeat of the simulation. Called on every "tick" of the physics engine.
+     * This is where we update the positions of every node and link.
      */
     _ticked() {
         this.linkElements
@@ -338,23 +375,23 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Creates a D3 drag handler for nodes.
+     * Creates a D3 drag handler to let users play God with the graph layout.
      */
     _dragHandler() {
         const dragstarted = (event, d) => {
-            if (!event.active) this.simulation.alphaTarget(0.3).restart();
+            if (!event.active) this.simulation.alphaTarget(0.3).restart(); // Heat up the simulation on drag start.
             d.fx = d.x;
             d.fy = d.y;
         };
 
         const dragged = (event, d) => {
-            d.fx = event.x;
+            d.fx = event.x; // Pin the node to the mouse position.
             d.fy = event.y;
         };
 
         const dragended = (event, d) => {
-            if (!event.active) this.simulation.alphaTarget(0);
-            d.fx = null;
+            if (!event.active) this.simulation.alphaTarget(0); // Let it cool down.
+            d.fx = null; // Unpin the node, let physics take over again.
             d.fy = null;
         };
 
@@ -365,7 +402,8 @@ class AIDebateVisualizer {
     }
     
     /**
-     * Cleans up the visualizer, removing SVG and event listeners.
+     * Tears down the whole visualization. For when the debate is over.
+     * Cleans up SVG, stops the simulation, and prevents memory leaks.
      */
     destroy() {
         this.simulation.stop();
@@ -378,13 +416,15 @@ class AIDebateVisualizer {
     }
 
     /**
-     * Resizes the visualization to fit its container. Should be called on window resize.
+     * You know, for when the window changes size.
+     * Makes sure the visualization doesn't look like a Picasso painting unless intended.
      */
     resize() {
         this.width = this.container.clientWidth;
         this.height = this.container.clientHeight;
         this.svg.attr('width', this.width).attr('height', this.height);
+        // Recenter the universe.
         this.simulation.force('center', d3.forceCenter(this.width / 2, this.height / 2));
-        this.simulation.alpha(0.3).restart();
+        this.simulation.alpha(0.3).restart(); // Give it a nudge to resettle.
     }
 }
