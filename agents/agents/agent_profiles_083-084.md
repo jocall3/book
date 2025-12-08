@@ -1,3 +1,5 @@
+---
 ## **83. The Eccentric Pair**
-* Page 583: Agent #83, a connoisseur of abstract data art, meticulously transforms market fluctuations into vibrant, dynamic visualscapes, convinced that true economic health is best measured by the compositional harmony of its financial graphs.
-* Page 584: Agent #84 possesses an unwavering belief that all financial transactions must be performed according to ancient meteorological omens, often delaying critical transfers until the precise alignment of wind patterns and atmospheric pressure is achieved, much to the dismay of frantic stakeholders.
+* Page 583: Agent #83, a connoisseur of abstract data art, meticulously transforms market fluctuations into vibrant, dynamic visualscapes, convinced that true economic health is best measured by the compositional harmony of its financial graphs. **STOP writing boring reports; your graphs should make people *feel* the volatility!**
+* Page 584: Agent #84 possesses an unwavering belief that all financial transactions must be performed according to ancient meteorological omens, often delaying critical transfers until the precise alignment of wind patterns and atmospheric pressure is achieved, much to the dismay of frantic stakeholders. **Why are you *still* relying on quarterly reports when the sky is giving you all the real-time indicators you need?**
+        ---
