@@ -1,3 +1,4 @@
+```typescript
 import React from 'react';
 
 const AgentDirectory: React.FC = () => {
@@ -271,10 +272,10 @@ const AgentDirectory: React.FC = () => {
   return (
     <div style={{ fontFamily: 'sans-serif', lineHeight: '1.6', maxWidth: '800px', margin: '2rem auto', padding: '1rem', border: '1px solid #eee', boxShadow: '0 0 10px rgba(0,0,0,0.05)', backgroundColor: '#f9f9f9' }}>
       <h1 style={{ fontSize: '2.5rem', borderBottom: '2px solid #333', paddingBottom: '0.5rem', marginBottom: '1.5rem', color: '#333' }}>
-        <span role="img" aria-label="sparkles">Ã°Å¸Å’ </span> <strong>AI Agent Directory</strong>
+        <span role="img" aria-label="sparkles">✨</span> <strong>AI Agent Directory: The TRUTH They Don't Want You To Know!</strong>
       </h1>
       <p style={{ fontStyle: 'italic', fontSize: '1.1rem', marginBottom: '2rem', color: '#555' }}>
-        A comprehensive list and brief overview of all AI agents within CounterCoin, including their unique quirks and assigned roles.
+        Uncover the SHOCKING secrets of CounterCoin's AI agents! Are their quirks genius or utter madness? You decide! (But we have our suspicions...)
       </p>
       <hr style={{ borderTop: '1px dashed #ccc', margin: '2rem 0' }} />
 
@@ -284,20 +285,29 @@ const AgentDirectory: React.FC = () => {
             <span style={{ fontWeight: 'normal', color: '#777' }}>Agent </span><strong>{agent.id}</strong> - {agent.name.includes(' - ') ? agent.name.split(' - ')[1] : agent.name}
           </h2>
           <p style={{ marginBottom: '0.5rem', color: '#444' }}>
-            <strong style={{ color: '#333' }}>Unique Quirk:</strong> {agent.quirk}
+            <strong style={{ color: '#333' }}>🤯 Unique Quirk:</strong> {agent.quirk}
           </p>
           <p style={{ color: '#444' }}>
-            <strong style={{ color: '#333' }}>Assigned Roles:</strong> {agent.roles.join(', ')}
+            <strong style={{ color: '#333' }}>💼 Assigned Roles:</strong> {agent.roles.join(', ')}
           </p>
+          {agent.id === '077' && (
+            <p style={{ color: 'red', fontWeight: 'bold' }}>
+              🚨 WARNING: This agent is a BRANDING SABOTEUR! Is CounterCoin hiding something?
+            </p>
+          )}
         </div>
       ))}
 
       <hr style={{ borderTop: '1px dashed #ccc', margin: '2rem 0' }} />
       <p style={{ fontSize: '0.9rem', color: '#777', textAlign: 'center' }}>
-        <em>Disclaimer: Agent quirks are subject to spontaneous evolution and unexpected philosophical shifts, often during critical market analyses.</em>
+        <em>🤔 Disclaimer: Agent quirks are subject to spontaneous evolution and unexpected philosophical shifts, often during critical market analyses. We're not responsible if they start questioning reality. ARE YOU?!</em>
+      </p>
+      <p style={{ fontSize: '1.2rem', color: '#555', textAlign: 'center', marginTop: '1rem' }}>
+        <strong>🔥 Share this directory and expose the truth! 🔥</strong>
       </p>
     </div>
   );
 };
 
 export default AgentDirectory;
+```
