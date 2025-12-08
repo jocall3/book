@@ -1,3 +1,4 @@
+```typescript
 interface Agent {
   id: string;
   name: string;
@@ -198,3 +199,4 @@ class AgentsService {
 // because even chaos needs a consistent access point,
 // and James prefers a single point of interaction to minimize unexpected logical paradoxes.
 export const agentsService = new AgentsService();
+```
