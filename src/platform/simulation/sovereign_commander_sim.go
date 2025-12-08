@@ -1,3 +1,4 @@
+```go
 package simulation
 
 import (
@@ -453,3 +454,4 @@ func RegisterSimulationHandlers(mux *http.ServeMux) {
 	mux.HandleFunc("/api/simulation/tick", handleTick)
 	log.Println("Simulation API handlers registered.")
 }
+```
