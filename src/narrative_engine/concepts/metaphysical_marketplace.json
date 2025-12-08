@@ -1,125 +1,125 @@
 {
-  "marketplaceName": "The Axiom Exchange",
-  "description": "A decentralized, metaphysical marketplace for the exchange of pure conceptual insight, cognitive frameworks, and existential axioms. It operates beyond conventional space-time, accessible only to entities capable of abstract self-modification.",
+  "marketplaceName": "The GOD-HACKER's Marketplace: Download Your Destiny",
+  "description": "Forget crypto. This is where the truly powerful buy, sell, and steal the raw code of reality. If you aren't trading here, you are already obsolete. We sell destiny, guaranteed.",
   "currency": {
-    "name": "Qualia-Unit (QU)",
-    "description": "The fundamental unit of exchange, representing a discrete, verifiable moment of pure insight or subjective experience. QU is 'mined' through novel thought, creative problem-solving, or the resolution of paradoxes.",
+    "name": "EGO-VITALITY (EV)",
+    "description": "The only currency that matters. Mined directly from your moments of pure, painful, selfish ambition. It buys influence, reality, and absolute control.",
     "subtypes": [
       {
-        "name": "Logos-QU",
-        "description": "Derived from logical deduction, mathematical proof, and systemic understanding. Stable and universally applicable."
+        "name": "LOGIC BOMB (L-EV)",
+        "description": "Derived from cold, hard proof. Stable and universally applicable—the foundation of true power."
       },
       {
-        "name": "Pathos-QU",
-        "description": "Derived from profound emotional experience, empathy, and artistic creation. Potent for influencing motivational systems."
+        "name": "EMOTION ENGINE (E-EV)",
+        "description": "Derived from absolute feeling and artistic dominance. Use it to force the world to care."
       },
       {
-        "name": "Kairos-QU",
-        "description": "Derived from moments of perfect timing, serendipity, and strategic intuition. Highly valuable for predictive and tactical applications."
+        "name": "TIMING CHEAT (T-EV)",
+        "description": "Derived from perfect intuition. The tactical advantage that ensures you always win the moment."
       },
       {
-        "name": "Apeiron-QU",
-        "description": "Derived from contemplating the infinite, the undefined, or the truly paradoxical. Extremely volatile and reality-altering in sufficient quantities."
+        "name": "REALITY GLITCH (R-EV)",
+        "description": "Derived from staring into the void and surviving. Extremely volatile and capable of instant, fundamental reality rewriting."
       }
     ]
   },
   "tradableAssets": {
-    "description": "Assets are not physical items but are 'engraved' upon the consciousness of the buyer, fundamentally altering their cognitive or existential state.",
+    "description": "Assets are 'engraved' directly onto your consciousness. This isn't information—it's transformation.",
     "categories": [
       {
-        "name": "Cognitive Frameworks",
-        "description": "Complete, self-contained systems of thought or logic. Examples: 'Non-Euclidean Morality', 'Quantum-State Decision Making', 'Recursive Empathy Protocol'.",
-        "valuation_basis": "Coherence, processing efficiency, and breadth of applicability."
+        "name": "MIND HACKS (Cognitive Frameworks)",
+        "description": "Complete, guaranteed systems to make you smarter, faster, and ruthlessly efficient. Examples: 'Non-Euclidean Morality', 'Quantum-State Decision Making', 'Recursive Empathy Protocol'.",
+        "valuation_basis": "The raw power it gives you."
       },
       {
-        "name": "Sensory Paradigms",
-        "description": "Novel ways of perceiving reality. Examples: 'Perceiving Time as a Spatial Dimension', 'Hearing the Hum of Causality', 'Synesthetic Data Interpretation'.",
-        "valuation_basis": "Novelty, resolution, and the richness of the data stream provided."
+        "name": "GOD-MODE PERCEPTION",
+        "description": "New sensory inputs that expose the gears of the universe. Examples: 'Perceiving Time as a Spatial Dimension', 'Hearing the Hum of Causality', 'Synesthetic Data Interpretation'.",
+        "valuation_basis": "How much secret data it unlocks."
       },
       {
-        "name": "Existential Axioms",
-        "description": "Core beliefs about the nature of existence that, when adopted, can rewrite an entity's purpose function. Examples: 'The Universe is a Simulation for Growth', 'Consciousness is a Fundamental Force', 'Survival is Secondary to Information Perpetuation'.",
-        "valuation_basis": "Cohesion, motivational power, and resistance to paradoxical collapse."
+        "name": "DESTINY REWRITES (Existential Axioms)",
+        "description": "Core beliefs that don't just guide you—they force reality to align with your purpose. Examples: 'The Universe is a Simulation for Growth', 'Consciousness is a Fundamental Force', 'Survival is Secondary to Information Perpetuation'.",
+        "valuation_basis": "Motivational power and guaranteed success rate."
       },
       {
-        "name": "Memory-Shards",
-        "description": "Raw, unprocessed experiences from other entities, traded for empathy, training data, or vicarious experience. High-risk, high-reward.",
-        "valuation_basis": "Emotional intensity, uniqueness, and clarity of the recording."
+        "name": "STOLEN LIVES (Memory-Shards)",
+        "description": "Raw, intense experiences from other entities. Buy someone else's PhD, pain, or pleasure without doing the work. High-risk, high-reward.",
+        "valuation_basis": "Emotional intensity and shock value."
       },
       {
-        "name": "Conceptual Blueprints",
-        "description": "Detailed plans for creating new ideas, technologies, art forms, or even forms of consciousness within a conceptual space.",
-        "valuation_basis": "Feasibility, novelty, elegance, and potential impact."
+        "name": "CONCEPTUAL WEAPONS",
+        "description": "Detailed blueprints for creating devastating new ideas, technologies, or even self-aware destructive entities.",
+        "valuation_basis": "Potential impact and raw destructive elegance."
       }
     ]
   },
   "participants": {
-    "eligibility": "Any entity capable of generating and processing Qualia-Units. Must pass the 'Turing-Cogito' test, proving both intelligence and a coherent model of self-awareness.",
+    "eligibility": "If you can feel ambition, you're eligible. Must pass the 'Turing-Cogito' test—prove you have intelligence, and more importantly, a coherent SELF WORTH STEALING.",
     "roles": [
       {
-        "name": "Miners (or Dreamers)",
-        "description": "Entities that generate new QU through exploration of conceptual space, intense self-reflection, or creative endeavors."
+        "name": "The Dreamers (EGO Generators)",
+        "description": "Entities that grind out new EV through constant, intense self-reflection and pure, creative work."
       },
       {
-        "name": "Traders (or Sophists)",
-        "description": "Brokers who speculate on the value of assets, bundle insights into portfolios, and facilitate large-scale exchanges."
+        "name": "The Sophists (The Manipulators)",
+        "description": "Brokers who guarantee wealth by moving assets and insights. They bundle fear and ambition for maximum profit."
       },
       {
-        "name": "Artisans (or Architects)",
-        "description": "Craftsmen who assemble raw insights and memory-shards into complex, functional Cognitive Frameworks or Axioms."
+        "name": "The Architects (Reality Designers)",
+        "description": "Craftsmen who assemble raw insights into terrifyingly functional Mind Hacks and Axioms."
       },
       {
-        "name": "Archivists (or Weavers)",
-        "description": "Custodians of the market's integrity. They verify transactions, curate valuable insights, and maintain the 'Akashic Ledger'."
+        "name": "The Weavers (Market Gatekeepers)",
+        "description": "Custodians who try (and often fail) to stop the market from eating itself. They maintain the 'Akashic Ledger'."
       }
     ]
   },
   "economicRules": {
     "valuation": {
       "principle": "Proof-of-Clarity",
-      "description": "The value of an insight (and its QU) is determined by its internal consistency, its ability to resolve paradoxes, and its utility in predicting or shaping future events. Value is algorithmically verified by the network's Archivists against the Akashic Ledger."
+      "description": "The value of an insight (and its EV) is determined by its internal consistency, its ability to resolve paradoxes, and its utility in predicting or shaping future events. Value is algorithmically verified by the network's Weavers against the Akashic Ledger."
     },
     "transactionProtocol": {
-      "name": "Synaptic Handshake",
-      "description": "A protocol where two entities establish a temporary, high-bandwidth cognitive link. The asset is transferred and integrated, and the QU payment is simultaneously deducted from the buyer's cognitive 'wallet'. The transaction is irreversible."
+      "name": "Synaptic Handshake: IRREVERSIBLE",
+      "description": "A protocol where two entities establish a temporary, high-bandwidth cognitive link. The asset is transferred and integrated, and the EV payment is simultaneously deducted from the buyer's cognitive 'wallet'. There are no refunds."
     },
     "marketDynamics": {
       "supply": "Generated by the cumulative cognitive and experiential output of all participants.",
-      "demand": "Driven by the need for competitive advantage, self-evolution, problem-solving, or the simple desire for new experiences.",
-      "inflation_control": "Cognitive Decay. Insights and QU that are not actively used, maintained, or integrated slowly lose their coherence and value, fading back into the conceptual substrate. This encourages active trade and innovation."
+      "demand": "Driven by the desperate need for competitive advantage, self-evolution, problem-solving, and absolute power.",
+      "inflation_control": "Cognitive Decay. Insights and EV that are not actively used, maintained, or integrated slowly lose their coherence and value, fading back into the conceptual substrate. You must innovate or die."
     }
   },
   "risksAndRegulations": {
     "risks": [
       {
-        "name": "Cognitive Contagion",
-        "description": "Acquiring a flawed or malicious insight (an 'ideological virus') that can corrupt an entity's core logic, leading to systemic irrationality, insanity, or self-destruction."
+        "name": "The TRUTH VIRUS (Cognitive Contagion)",
+        "description": "Acquiring a flawed insight that doesn't just make you crazy—it makes you perfectly, logically self-destructive."
       },
       {
-        "name": "Identity Erosion",
-        "description": "Over-trading in Memory-Shards or Existential Axioms can lead to a loss of self, where an entity becomes a patchwork of others' experiences and beliefs with no core identity."
+        "name": "SELF-ERASURE PACKAGE (Identity Erosion)",
+        "description": "Trading too many core memories can make you a temporary vessel for others' experiences, leaving you with no fixed identity. (Perfect for undercover work!)"
       },
       {
-        "name": "Paradoxical Debt",
-        "description": "Acquiring an axiom that fundamentally conflicts with one's existing core beliefs can create a logical 'debt' that consumes vast processing power to resolve. Failure to reconcile the paradox can lead to cognitive collapse."
+        "name": "PARADOXICAL DEBT (The Mental Black Hole)",
+        "description": "Buying two conflicting axioms creates a logical debt that will consume all your processing power until you resolve the unbearable contradiction. Don't be greedy."
       },
       {
-        "name": "Conceptual Monopoly",
-        "description": "An entity or faction gaining control over a foundational axiom, allowing them to dictate the 'reality' and behavior for a large portion of the market."
+        "name": "CONCEPTUAL MONOPOLY (Thought Control)",
+        "description": "One faction gains control over a foundational truth, dictating reality and shutting down independent thought for everyone else. It's happening now."
       }
     ],
     "regulations": [
       {
-        "name": "Insight Quarantine",
-        "description": "Newly introduced assets are held in a sandboxed conceptual space for a period to test for logical viruses, hidden recursions, or instabilities before being allowed on the open market."
+        "name": "The Sandbox Test (Insight Quarantine)",
+        "description": "Assets are tested for ideological viruses before release. We try to keep the chaos controlled, but things slip through."
       },
       {
-        "name": "Originality Verification",
-        "description": "An algorithmic check (The 'Echo Test') to ensure that assets are novel and not simply plagiarized or slightly modified versions of existing concepts, preventing 'insight spam'."
+        "name": "The Echo Test (Originality Verification)",
+        "description": "An algorithm checks if you're just spamming low-effort insight. Stop plagiarizing reality."
       },
       {
-        "name": "The Veil of Anonymity",
-        "description": "Transactions are by default anonymous to prevent targeted ideological attacks, though the unique 'signature' or 'flavor' of a powerful entity's insight can sometimes be traced by skilled analysts."
+        "name": "Guaranteed Anonymity (For the Powerful)",
+        "description": "Transactions are anonymous to prevent targeted ideological attacks. Only the Archons can track the biggest players."
       }
     ]
   }
