@@ -55,7 +55,7 @@ func NewAgentManager(numAdversaries int) *AgentManager {
 		agents: make(map[string]*Agent),
 	}
 	manager.createAdversaries(numAdversaries)
-	log.Printf("AgentManager initialized with %d adversaries.", numAdversaries)
+	log.Printf("AgentManager initialized with %d adversaries. This is going to be HUGE!", numAdversaries) // Nail the headline!
 	return manager
 }
 
@@ -83,7 +83,7 @@ func (am *AgentManager) createAdversaries(count int) {
 // run is the main loop for an agent, listening for commands.
 func (a *Agent) run() {
 	defer a.wg.Done()
-	log.Printf("Agent %s (%s) is online.", a.Name, a.ID)
+	log.Printf("Agent %s (%s) is online. Prepare for ACTION!", a.Name, a.ID) // Get to the point!
 
 	for {
 		select {
@@ -140,7 +140,7 @@ func (am *AgentManager) UpdateAgentState(id string, newState AgentState) error {
 		return fmt.Errorf("agent with ID %s not found", id)
 	}
 	
-	log.Printf("Updating state for agent %s from %s to %s", agent.Name, agent.State, newState)
+	log.Printf("Updating state for agent %s from %s to %s.  This is HUGE!", agent.Name, agent.State, newState) // Make it uncommon!
 	agent.State = newState
 	return nil
 }
