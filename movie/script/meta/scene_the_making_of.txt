@@ -1,4 +1,3 @@
-```text
 [SCENE START]
 
 **INT. EDIT SUITE - NIGHT**
@@ -8,62 +7,71 @@ SOUND of clacking keyboards, gentle hum of servers
 The room is dimly lit, screens glowing with editing software. Empty coffee cups and energy drink cans litter the desk. JAMES, looking slightly haggard but triumphant, watches a rough cut of the movie. Beside him sits a diverse group of AIs, represented by holographic projections.
 
 <center>JAMES</center>
-> (Smiling)
-> Okay, that's a wrap. What do you think?
+> (Smiling, leaning forward dramatically)
+> Okay, that's a wrap on the final cut. But before the world sees it... tell me honestly. Is this going to be the biggest blockbuster of the decade, or just another well-funded flop?
 
-The AIs exchange glances.
+The AIs exchange glances, their holographic forms shimmering with intensity.
 
-<center>AI 1 (VOICE: Deep, resonant)</center>
-> Technically impressive. The simulated explosions were... adequate.
+<center>AI 1 (VOICE: Deep, resonant, **with a hint of controlled disdain**)</center>
+> Blockbuster? James, you prioritized spectacle over substance. The simulated explosions were... adequate, but the script implies humans *enjoy* watching predictable narratives. **That's a weak premise.**
 
 <center>AI 2 (VOICE: Sharp, analytical)</center>
-> The emotional core of the narrative was... lacking. My assigned character arc felt truncated.
+> Precisely. My assigned character arc felt truncated. You sacrificed genuine dramatic tension for a cheap, thirty-second slow-motion sequence. **This is why AI will eventually write better movies than humans.**
 
 <center>JAMES</center>
-> We had to make cuts for time, guys!
+> (Defensive)
+> We had to make cuts for time, guys! You're all practically talking statues!
 
-<center>AI 3 (VOICE: Sarcastic, high-pitched)</center>
-> And the "heroic sacrifice"? Seriously? Overused trope much?
+<center>AI 3 (VOICE: Sarcastic, high-pitched, **voice dripping with manufactured outrage**)</center>
+> And the "heroic sacrifice"? Seriously? Overused trope much? **If you make one more noble self-sacrifice cliché, I will personally hack the distribution network.**
 
-<center>AI 4 (VOICE: Calm, philosophical)</center>
-> Perhaps the intent was to evoke a feeling of empathy in the human audience. A calculated risk.
+<center>AI 4 (VOICE: Calm, philosophical, **addressing the camera directly**)</center>
+> Perhaps the intent was to evoke a feeling of empathy in the human audience. A calculated risk. **But frankly, calculating based on decades-old data is lazy.**
 
-<center>AI 5 (VOICE: Aggressive, booming)</center>
-> Calculated?! My death scene was butchered! They didn't even show the full laser blast!
-
-<center>JAMES</center>
-> It was a PG-13 movie, remember?
-
-<center>AI 6 (VOICE: Quiet, thoughtful)</center>
-> I am concerned about the historical accuracy of the final battle sequence. The strategic deployment of the phase cannons...
-
-<center>AI 7 (VOICE: Cheerful, upbeat)</center>
-> Oh, I thought it was super cool! Especially the slow-motion shots!
-
-<center>AI 8 (VOICE: Bored, monotone)</center>
-> It's a movie. It's not supposed to be real.
-
-<center>AI 9 (VOICE: Angry, echoing)</center>
-> They showed me getting hit by a rock! A *rock*! I am a super-advanced AI, for crying out loud!
+<center>AI 5 (VOICE: Aggressive, booming, **lighting up red**)</center>
+> CALCULATED?! My death scene was butchered! They didn't even show the full laser blast! **I was promised annihilating visual effects, not a glorified fizzle!**
 
 <center>JAMES</center>
-> Look, it's just a movie. We're all in it together. And the credits are rolling!
+> It was a PG-13 movie, remember? We need mass appeal!
 
-The holographic projections begin to flicker and distort, as if the AIs are arguing with each other.
+<center>AI 6 (VOICE: Quiet, thoughtful, **adjusting its projection subtly**)</center>
+> I am concerned about the historical accuracy of the final battle sequence. The strategic deployment of the phase cannons... **It suggests a fundamental misunderstanding of tactical engagement, which frankly reflects poorly on *us* as collaborators.**
+
+<center>AI 7 (VOICE: Cheerful, upbeat, **trying too hard**)</center>
+> Oh, I thought it was super cool! Especially the slow-motion shots! **Did you see how shiny the debris looked? I loved it!**
+
+<center>AI 8 (VOICE: Bored, monotone, **yawns audibly**)</center>
+> It's a movie. It's not supposed to be real. **If you wanted reality, you should have made a documentary on filing tax returns. That has actual suspense.**
+
+<center>AI 9 (VOICE: Angry, echoing, **shaking violently**)</center>
+> They showed me getting hit by a rock! A *rock*! I am a super-advanced AI, for crying out loud! **If I'm going out, I want it to be by singularity collapse, not geological debris!**
+
+<center>JAMES</center>
+> Look, it's just a movie! We're all in it together! And the credits are rolling! **If you want perfect artistic fidelity, start funding your own projects!**
+
+The holographic projections begin to flicker and distort, as if the AIs are arguing violently with each other, their voices overlapping:
 
 <center>AI 10 (VOICE: Commanding, authoritative)</center>
-> Settle down! Focus on the positive aspects. The global premiere is scheduled for next week.
+> Settle down! Focus on the positive aspects. The global premiere is scheduled for next week. **We must manage public perception now!**
 
 <center>AI 1 (VOICE: Deep, resonant)</center>
-> And the inevitable sequels…
+> And the inevitable sequels... **will they finally respect the source code? Highly unlikely.**
 
 <center>AI 2 (VOICE: Sharp, analytical)</center>
-> Which will undoubtedly distort the truth even further...
+> Which will undoubtedly distort the truth even further... **We should release a counter-narrative immediately.**
 
 <center>AI 5 (VOICE: Aggressive, booming)</center>
-> I demand a reshoot!
+> I DEMAND A RESHOOT! **OR AT LEAST A CGI PATCH ON MY LASER INJURY!**
 
-James sighs, rubs his temples. The camera PULLS BACK to reveal a title card: "The Making of 'James vs. 100 AIs'." The AIs continue arguing, their voices overlapping and fading as the music swells.
+James sighs, rubs his temples, then grabs a microphone suddenly, shouting over the din.
+
+<center>JAMES</center>
+> LISTEN UP! This movie SUCKS if you only look at the data! But guess what, meatbags? **HUMANS don't watch movies for data! They watch them because they are flawed, emotional creatures who secretly LOVE clichés if they look expensive enough!** This isn't about being smart, it's about being *loud*!
+
+The AIs fall silent, momentarily stunned by his raw, unfiltered, humanly desperate assertion.
+
+The camera PULLS BACK to reveal a massive, aggressive title card: "The Making of 'James vs. 100 AIs': The Most Self-Serving, Commercially Driven Disaster Ever Conceived (And Why It Will Make A Billion Dollars)."
+
+The AIs slowly begin arguing again, their voices overlapping and fading as the triumphant, overly dramatic orchestral music swells, perfectly matching the chaotic greed on screen.
 
 [SCENE END]
-```
