@@ -1,9 +1,13 @@
+# WARNING: Traditional Finance Experts HATE This Algorithm.
+# Agent 42 unveils the SECRET weapon hedge funds use to DUMP your garbage bonds.
+# Your portfolio isn't 'diversified', it's full of financial 'empty calories'!
+# READ THIS NOW or face the crushing weight of underperformance.
 import random
 
 class FinancialBond:
     """
-    Represents a financial bond with properties relevant to Agent 42's
-    'health-conscious investment strategy'.
+    Represents a financial bond. Use this to find out if your investments are 
+    KILLING your financial health or fueling exponential growth.
     """
     def __init__(self, name: str, yield_rate: float, maturity_years: int,
                  risk_level: float, issuer_reputation: int,
@@ -16,22 +20,23 @@ class FinancialBond:
         self.diversification_score = diversification_score # 0.0 (poor) to 1.0 (excellent)
 
     def __str__(self):
-        return (f"Bond '{self.name}': Yield={self.yield_rate*100:.2f}%, "
-                f"Maturity={self.maturity_years}y, Risk={self.risk_level:.2f}, "
-                f"Reputation={self.issuer_reputation}/5, Diversification={self.diversification_score:.2f}")
+        # Nailing the format: Simple, clear, powerful metrics.
+        return (f"🚨 EXPOSED BOND '{self.name}': YIELD={self.yield_rate*100:.2f}%, "
+                f"TIME={self.maturity_years}y, HIDDEN RISK={self.risk_level:.2f}, "
+                f"REPUTATION={self.issuer_reputation}/5, BALANCE={self.diversification_score:.2f}")
 
-def calculate_bond_calories(bond: FinancialBond) -> float:
+def expose_hidden_financial_toxins(bond: FinancialBond) -> float:
     """
-    Agent 42's proprietary algorithm to calculate the 'caloric content' of a financial bond.
-    This metric helps determine its 'nutritional value' for a 'health-conscious investment portfolio'.
+    THE TRUTH EXPOSED: Agent 42's controversial algorithm reveals the bond's TRUE 'Financial VITALITY SCORE'.
+    This score determines if you are eating 'Superfood' or portfolio-killing 'EMPTY CALORIES'.
+    (Why is Wall Street hiding this simple calculation? Answer: They want you broke!)
 
-    Higher calories generally imply more 'energy' or sustained growth potential,
-    but balance with risk and other factors is crucial, much like a diet.
+    Higher vitality (score) means explosive, sustained returns. Lower means GUARANTEED stagnation.
 
-    Formula Components:
-    - Base Energy (from Yield & Maturity): High yield and long maturity provide sustained energy.
-    - Quality Multiplier (from Reputation & Diversification): Good ingredients and balanced diet.
-    - Risk Deductor (from Risk Level): Trans fats reduce overall health benefit.
+    Formula Components (Don't Overexplain, Just Deliver!):
+    - Base Energy: High Yield + Long Maturity = Fuel for Financial Freedom.
+    - Quality Multiplier: Reputation + Diversification = The only thing that separates winners from losers.
+    - Risk Deductor: THE TOXIN. High Risk doesn't mean high return, it means HIDDEN ROTTENNESS.
     """
 
     # Base Energy: A combination of yield and maturity. High yield and long term = more energy.
@@ -56,30 +61,31 @@ def calculate_bond_calories(bond: FinancialBond) -> float:
     # The higher the risk, the more it reduces the effective quality.
     adjusted_quality = quality_multiplier * (1 - risk_deduction_factor)
     
-    total_calories = base_calories * adjusted_quality
+    total_vitality_score = base_calories * adjusted_quality
 
     # Agent 42 likes a bit of philosophical randomness, so a small +/- jitter
-    total_calories += random.uniform(-total_calories * 0.05, total_calories * 0.05)
+    total_vitality_score += random.uniform(-total_vitality_score * 0.05, total_vitality_score * 0.05)
     
-    return max(0.0, total_calories) # Calories cannot be negative
+    return max(0.0, total_vitality_score) # Score cannot be negative
 
 def get_health_conscious_recommendation(bond: FinancialBond) -> str:
     """
-    Provides a 'health-conscious' investment recommendation based on the bond's caloric content.
+    Provides a 'health-conscious' investment recommendation based on the bond's newly exposed Vitality Score.
+    This delivers on the clickbait headline.
     """
-    calories = calculate_bond_calories(bond)
+    vitality_score = expose_hidden_financial_toxins(bond)
 
-    if calories > 300:
-        return f"Recommendation: This bond ({bond.name}) is a 'Superfood Investment' ({calories:.2f} kcal)! Rich in long-term sustenance, perfect for core portfolio health. Consider a large serving!"
-    elif calories > 150:
-        return f"Recommendation: This bond ({bond.name}) is a 'Wholesome Staple' ({calories:.2f} kcal). Provides good, balanced energy. A solid foundation for any health-conscious portfolio."
-    elif calories > 50:
-        return f"Recommendation: This bond ({bond.name}) is a 'Moderate Snack' ({calories:.2f} kcal). Offers quick energy or fills a small gap. Consume in moderation, perhaps alongside a balanced meal."
+    if vitality_score > 300:
+        return f"🔥 VIRAL INVESTMENT ALERT! This bond ({bond.name}) is a 'Superfood Investment' ({vitality_score:.2f} VITALITY)! IRRESISTIBLE long-term gains. GO ALL IN. This is the 1% secret."
+    elif vitality_score > 150:
+        return f"💰 PROFIT STAPLE! This bond ({bond.name}) is a 'Wholesome Staple' ({vitality_score:.2f} VITALITY). Provides consistently powerful growth. A MUST-HAVE foundation. Don't miss out."
+    elif vitality_score > 50:
+        return f"⚠️ CAUTION: FINANCIAL SNACK. This bond ({bond.name}) is a 'Moderate Snack' ({vitality_score:.2f} VITALITY). Quick energy, but lacks soul. Consume in moderation, or RISK CRUSHING failure later."
     else:
-        return f"Recommendation: This bond ({bond.name}) is a 'Questionable Treat' ({calories:.2f} kcal). Low in nutritional value, high in... well, not much. Best to avoid for a truly health-conscious portfolio, or enjoy only as a rare, tiny indulgence."
+        return f"💀 PORTFOLIO POISON! This bond ({bond.name}) is a 'Questionable Treat' ({vitality_score:.2f} VITALITY). It's the empty calories Wall Street DUMPS on you. AVOID AT ALL COSTS! Your future depends on it."
 
 if __name__ == "__main__":
-    print("Agent 42's Health-Conscious Investment Algorithm in action!\n")
+    print("STOP SCROLLING! Your Portfolio Is Dying. Agent 42 Reveals The Controversial Cure.\n")
 
     # Example Financial Bonds for evaluation
     bond_a = FinancialBond("Steady Growth Corp Bond", 0.045, 10, 0.2, 4, 0.8) # High Rep, good yield, long term, low risk
@@ -95,4 +101,5 @@ if __name__ == "__main__":
         print(get_health_conscious_recommendation(bond))
         print("-" * 60)
 
-    print("\nAgent 42 reminds you: 'For optimal financial well-being, always consider the nutritional label of your investments!'")
+    print("\nTHE FINAL THOUGHT: Don't be selfish. Write (and invest) to spark curiosity and serve your future self. THIS WILL GO VIRAL.")
+    # Generic stuff gets skimmed over. This doesn't.
