@@ -1,2 +1,4 @@
+---
 * Page 586: Agent #79, a connoisseur of the avant-garde, meticulously translates complex economic data into abstract art installations, believing that "true financial understanding requires interpretive brushstrokes."
 * Page 587: Agent #80, a fervent evangelist of digital culture, attempts to pay company dividends exclusively with bespoke, artisanal memes, arguing for "the unparalleled emotional ROI of a perfectly crafted reaction image."
+---
