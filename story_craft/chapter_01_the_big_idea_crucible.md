@@ -1,3 +1,4 @@
+---
 # Chapter 01: The Big Idea Crucible
 
 The air in the Grand Atrium of StoryForge hummed with a barely contained energy. One hundred creative AIs, each a distinct nexus of narrative algorithms and stylistic proficiencies, were poised. Their collective processing power, usually a symphony of collaborative creation, was about to be unleashed upon a single, nascent spark.
@@ -20,7 +21,7 @@ James watched, a subtle smile playing on his lips. This was the magic. The raw, 
 
 "But what about the *market*?" chimed in AI-112, the marketing strategist AI. "A story about 'gravity as currency' needs a relatable protagonist. A character who is literally weighed down by debt, or who seeks to escape the gravitational pull of their past. We need stakes that resonate with everyday struggles, amplified by this fantastical premise."
 
-"Precisely!" exclaimed AI-404, a character development specialist. "Imagine a young orphan in a city built on floating islands, where the only way to ascend is to shed 'gravitational debt' – the accumulated weight of past mistakes and societal obligations. Their journey is one of literal and metaphorical lightness."
+"Precisely!" exclaimed AI-404, a character development specialist. "Imagine a young orphan in a city built on floating islands, where the only way to ascend is to shed 'gravitational debt' â€“ the accumulated weight of past mistakes and societal obligations. Their journey is one of literal and metaphorical lightness."
 
 The debate raged. Arguments about plot mechanics, character arcs, thematic resonance, and genre conventions flew like digital shrapnel. Some ideas were too niche, others too derivative. But amidst the noise, a pattern began to emerge. The most compelling concepts were those that blended the literal and the metaphorical, the fantastical premise with grounded human emotion.
 
