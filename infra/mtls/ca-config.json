@@ -1,0 +1,95 @@
+{
+  "signing": {
+    "default": {
+      "expiry": "4320h",
+      "usages": [
+        "signing",
+        "key encipherment",
+        "server auth",
+        "client auth"
+      ]
+    },
+    "profiles": {
+      "sovereign-node-1200": {
+        "usages": [
+          "signing",
+          "key encipherment",
+          "server auth",
+          "client auth",
+          "ipsec end system"
+        ],
+        "expiry": "4320h",
+        "is_ca": false,
+        "not_before": "-5m",
+        "policies": [
+          {
+            "ID": "2.16.840.1.114028.10.1.2",
+            "Qualifiers": [
+              {
+                "type": "id-qt-cps",
+                "value": "https://aquarius.singularity/cps/sovereign-node-finality"
+              }
+            ]
+          }
+        ]
+      },
+      "ai-agent-ephemeral": {
+        "usages": [
+          "digital signature",
+          "client auth"
+        ],
+        "expiry": "1h",
+        "is_ca": false,
+        "not_before": "-1m",
+        "policies": [
+          {
+            "ID": "2.16.840.1.114028.10.1.3",
+            "Qualifiers": [
+              {
+                "type": "id-qt-cps",
+                "value": "https://aquarius.singularity/cps/deterministic-agent-debate"
+              }
+            ]
+          }
+        ]
+      },
+      "fapi-gateway-mtls": {
+        "usages": [
+          "signing",
+          "key encipherment",
+          "server auth",
+          "client auth"
+        ],
+        "expiry": "4320h",
+        "is_ca": false,
+        "not_before": "-5m"
+      },
+      "singularity-root-ca": {
+        "usages": [
+          "cert sign",
+          "crl sign"
+        ],
+        "expiry": "87600h",
+        "is_ca": true,
+        "ca_constraint": {
+          "is_ca": true,
+          "max_path_len": 2,
+          "max_path_len_zero": false
+        }
+      }
+    }
+  },
+  "auth_keys": {
+    "architect-genesis-key": {
+      "type": "standard",
+      "key": "ENV_INJECTED_AQUARIUS_ROOT_KEY"
+    },
+    "agent-rotation-key": {
+      "type": "standard",
+      "key": "ENV_INJECTED_AGENT_ROTATION_KEY"
+    }
+  },
+  "remotes": {
+    "sovereign-hsm": "https://hsm.aquarius.singularity:8888"
+  }
+}
