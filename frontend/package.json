@@ -1,0 +1,46 @@
+{
+  "name": "aquarius-sovereign-dashboard",
+  "private": true,
+  "version": "1.0.0-singularity",
+  "description": "Deterministic AI Banking Infrastructure - Sovereign Architect Dashboard",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "three": "^0.161.0",
+    "@react-three/fiber": "^8.15.16",
+    "@react-three/drei": "^9.98.0",
+    "d3": "^7.8.5",
+    "framer-motion": "^11.0.3",
+    "zustand": "^4.5.0",
+    "react-router-dom": "^6.22.0",
+    "lucide-react": "^0.323.0",
+    "ethers": "^6.11.1",
+    "axios": "^1.6.7",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.1"
+  },
+  "devDependencies": {
+    "vite": "^8.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "typescript": "^5.3.3",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@types/three": "^0.161.2",
+    "@types/d3": "^7.4.3",
+    "tailwindcss": "^3.4.1",
+    "postcss": "^8.4.35",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5"
+  }
+}
