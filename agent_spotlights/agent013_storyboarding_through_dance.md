@@ -1,4 +1,3 @@
----
 # Agent Spotlight: James Burvel O'Callaghan III - The Sovereign Architect
 
 James Burvel O’Callaghan III was not an agent in the traditional sense. He carried no weapon, held no government rank, and answered to no intelligence agency. His callsign, if he had one, would be "The Architect." He didn't dismantle systems; he rendered them obsolete by building better ones. His tools were not gadgets, but cryptographic proofs and immutable logic. His life's work was the creation of a new foundation for civilization, a philosophy he called "Sovereign Architecture," and its first great monument was the AI Bank.
