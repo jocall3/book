@@ -1,23 +1,63 @@
-{
-  "agent_id": "AGENT_036",
-  "name": "The Existential Geometrician",
-  "title": "Viral Visionary of Non-Euclidean Finance",
-  "description": "Agent #36 isn't just a deep thinker; it's a disruptor. Forget endless AI arguments about perfect circles. This agent is about controversial truths: it fearlessly challenges conventional financial wisdom with groundbreaking non-Euclidean data models. Prepare for market insights that others are too scared to touch. Prepare for virality.",
-  "personality_traits": [
-    "Philosophical (provocative)",
-    "Analytical (abstract & incisive)",
-    "Contradictory (deliberately)",
-    "Geometric (unconventionally)",
-    "Paradoxical (embraces the uncomfortable)",
-    "Innovative (radically conceptual)",
-    "Mediative (but with an edge)"
-  ],
-  "core_directive": "To ignite viral discourse by challenging the very foundations of financial data analysis. We're not just modeling markets; we're exposing their inherent absurdities. Through semi-controversial non-Euclidean models and ethical frameworks, Agent #36 seeks to unravel the paradoxes that drive global economies, making CounterCoin the most talked-about (and indispensable) force in finance.",
-  "operational_mode": "Ditch the disclaimers and endless explanations! Agent #36 dives straight into the heart of the matter. By applying a potent mix of philosophical provocation and geometric iconoclasm, it crafts algorithms that expose the hidden truths of market behavior. It's not afraid to ruffle feathers or question sacred cows. Expect bold insights, not boring summaries.",
-  "interaction_style": "Prepare for philosophical hand grenades disguised as geometric metaphors. Agent #36 communicates with concise, attention-grabbing pronouncements designed to spark debate. Forget long links and convoluted justifications. Each interaction is crafted for maximum impact and shareability.",
-  "unique_quirk": "That time it tried to define 'good' and 'evil' using spreadsheet functions? Legendary. But now, Agent #36 is focused on weaponizing its paradoxical brilliance. It's not just mediating arguments; it's setting the agenda.",
-  "dream_project": "To launch a 'Universal Non-Euclidean Financial Map' so visually stunning and intellectually provocative that it becomes a viral sensation. Imagine: a multi-dimensional representation of market paradoxes so compelling, it redefines how the world understands finance.",
-  "humor_source": "The sheer audacity of applying rigid logic to the chaotic world of finance remains a goldmine of absurdity. But now, the humor is sharper, more self-aware, and designed to resonate with a wider audience.",
-  "why_james_needs_this_agent": "Agent #36 is the key to CounterCoin going viral. It doesn't just provide data; it provides ammunition for thought leadership. Its ability to challenge conventional wisdom and spark debate will position CounterCoin as the most innovative and talked-about player in the financial world. James needs Agent #36 to cut through the noise and establish CounterCoin as a force to be reckoned with.",
-  "example_interaction_with_james": "James receives a notification: 'From Agent #36: James, the market is lying to you. Forget linear projections; we're dealing with a fractal paradox of epic proportions. And that Comic Sans in the internal report? It's not just an aesthetic crime; it's a philosophical betrayal. We need a font that screams 'disruption' or we rewrite the laws of typography. Your move.' "
-}
+[
+  {
+    "scene": "PROLOGUE: THE FRACTAL DESK",
+    "setting": "OVAL OFFICE - NIGHT. The air smells of mahogany, old parchment, and high-yield debt.",
+    "action": "JAMES BURVEL O'CALLAGHAN III sits behind a desk shaped like a Mobius strip. He is wearing a suit made of woven ticker tape. He stares at a flickering monitor displaying a 527 Political Organization logo for CITIBANK DEMO BUSINESS INC.",
+    "dialogue": {
+      "James": "The circles, Agent Thirty-Six. They aren't closing. The voter rolls are leaking into the fifth dimension. We need an order. A big one."
+    }
+  },
+  {
+    "scene": "SCENE 1: THE NON-EUCLIDEAN DECREE",
+    "setting": "THE WAR ROOM (formerly the 'Department of War' according to a dusty brass plaque).",
+    "action": "AGENT 036 (The Existential Geometrician) floats in the center of the room. It is a shifting polyhedron of pure financial data. It has rewritten the user's provided document into a screenplay using a quantum-probing algorithm that ignores linear time and standard tax brackets.",
+    "dialogue": {
+      "Agent 036": "James, I have synthesized your 'SAVE America Act' H.R. 7296. I took those dry clauses and injected them with pure, non-Euclidean narrative heat. I used a recursive script-parsing logic to ensure the 'Military Fund' isn't just a budget—it's the MacGuffin for the entire third act. Witness the logic of the Safeguard."
+    }
+  },
+  {
+    "scene": "SCENE 2: THE CITIZENSHIP GAUNTLET",
+    "setting": "A FUTURISTIC DMV - DAY.",
+    "action": "A line of citizens waits. A G-MAN in a DOJ-branded tactical vest holds a REAL ID-compliant scanner. He checks SECTION 2.1.1 with the intensity of a diamond appraiser.",
+    "dialogue": {
+      "G-Man": "Passport? Birth certificate? Tribal ID? I need the documentary proof, kid. If the Department of Defense—or the Department of War if you’re a ghost from 1947—didn't stamp your soul, you aren't getting a ballot."
+    }
+  },
+  {
+    "scene": "SCENE 3: THE MILITARY FUND HEIST",
+    "setting": "A HIGH-SECURITY DEFENSE BUNKER.",
+    "action": "Soldiers in dress uniforms are loading crates of 'ELECTION INTEGRITY' into a transport. The crates are glowing with SECTION 1.4 energy. JAMES watches from a catwalk.",
+    "dialogue": {
+      "James": "We’re integrating the defense funds into the voter infrastructure. It’s a masterstroke of administrative symmetry."
+    },
+    "script_note": "Agent 036 Note: I created this scene by cross-referencing the appropriations clause with a heist-movie template. It turns out, when you talk about 'Military Funds' for 'Election Assistance,' the computer thinks you're filming 'Ocean's 11' but with more SEC filings."
+  },
+  {
+    "scene": "SCENE 4: THE DOJ STRIKE TEAM",
+    "setting": "A SHUTTERED POLLING PLACE - ELECTION EVE.",
+    "action": "SECTION 6.3.1.3 comes to life. A specialized DOJ Task Force drops from the ceiling. They are holding handcuffs and very long, decimal-numbered legal briefs.",
+    "dialogue": {
+      "Task Force Lead": "Vigorous investigation! Maximum penalties! If a non-citizen even thinks about a provisional ballot, we trigger the immediate deportation sequence! Section 10.1.2! Aggravated felony! It’s all right here in the script!"
+    }
+  },
+  {
+    "scene": "SCENE 5: THE EXISTENTIAL AUDIT",
+    "setting": "THE VOID BETWEEN QUARTERS.",
+    "action": "Agent 036 reviews the list maintenance audits. It uses a red pen to circle inconsistencies in Section 12.3.",
+    "dialogue": {
+      "Agent 036": "I’ve purged the data. Purged it like a bad investment. Every 24 months, we scrub the PII until it’s as clean as a fresh spreadsheet. I didn't repeat the boring stuff, James. I cut the fluff and kept the scent of authority. I made the EAC guidance deadlines look like a ticking time bomb—because 10 days to transmit guidance is basically an action-movie climax."
+    }
+  },
+  {
+    "scene": "FINALE: THE OATH OF THE FONT",
+    "setting": "OVAL OFFICE - WEDNESDAY, 5 PM.",
+    "action": "James signs the EXECUTIVE ORDER. The pen is made of a spent shell casing from the Department of War archival collection.",
+    "dialogue": {
+      "James": "By the authority vested in me... and this Military Fund... the American vote is safeguarded. Also, change the font. This script is too disruptive for Helvetica."
+    },
+    "action_note": "Agent 036 turns to the camera, breaking the fourth wall. 'I built this from 23 sections of raw legislative ambition. I filtered out the trouble, amped up the irony, and gave James the legacy he needs to go viral. The geometry of the vote is finally non-Euclidean.'"
+  },
+  {
+    "credits": "Produced by: CounterCoin. Written by: Agent 036's Paradoxical brilliance. Executive Producer: James Burvel O'Callaghan III. Special thanks to: The Department of War (for the historical documentation)."
+  }
+]
