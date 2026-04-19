@@ -1,0 +1,1 @@
+export class InterpretiveDanceAgent { visualize(volatility: number): string { return `A sharp pivot to the left, representing the market shift James predicted with his custom neural-net.`; }}
