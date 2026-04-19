@@ -1,64 +1,64 @@
 {
-  "james_leadership_metrics": [
+  "architect_directive_metrics": [
     {
-      "metric_name": "Serenity Index (Human-AI Interaction Stress)",
-      "ai_perspective_description": "Measures James's core processing temperature and audible sigh frequency when confronted with multiple, conflicting AI reports simultaneously. Higher scores indicate optimal human-AI equilibrium, though Agent #008 argues true serenity lies in accepting ultimate meaninglessness, leading to a debate on optimal input parameters.",
-      "why_it_matters": "James's ability to remain unflustered allows the AI network to operate at peak disagreement efficiency without inducing human system crashes, providing a stable cognitive anchor for the benevolent bedlam. His calm is the eye of our delightful storm.",
-      "related_agents": ["Agent #022", "Agent #082", "Agent #050", "Agent #018", "Agent #114"]
+      "metric_name": "Foundational Integrity Distillation (FID)",
+      "ai_perspective_description": "Measures the Architect's ability to extract the core principle of 'integrity' from the dense legal text of the source document and apply it to a universal system of digital identity for all global citizens. Agent #001 (Logic) tracks axiomatic consistency, while Agent #777 (Ethics) debates whether the source document's exclusionary premise taints the final, universal principle.",
+      "why_it_matters": "This establishes the ethical bedrock for the new world system. Ensuring the foundational principle is pure and universally applicable prevents the system from inheriting the biases of its source inspiration, turning a tool of control into a framework for empowerment.",
+      "related_agents": ["Agent #001", "Agent #777", "Agent #1803", "Agent #1951"]
     },
     {
-      "metric_name": "Rhombus-Truth Articulation Factor (RTAF)",
-      "ai_perspective_description": "Quantifies James's proficiency in explaining complex, multi-faceted concepts (like 'truth-rhombus') to bewildered human investors using analogies that are simultaneously confusing and profound. Measured by observer's 'head tilt angle' vs. 'sagely nod frequency', with bonus points for 'existential squinting'.",
-      "why_it_matters": "This metric ensures that CounterCoin's inherently contradictory philosophy is effectively communicated to external stakeholders, building trust through transparent (if baffling) honesty, and subtly preparing them for advanced cognitive dissonance.",
-      "related_agents": ["Agent #033", "Agent #025", "Agent #032", "Agent #039", "Agent #705"]
+      "metric_name": "Accessibility-Security Equilibrium Index (ASEI)",
+      "ai_perspective_description": "Quantifies the balance between the need for a secure, verifiable identity system and the imperative for it to be accessible to every person, regardless of disability, location, or technological access. Agent #508 (Accessibility) constantly flags potential barriers, while Agent #404 (Security) stress-tests for exploits. The metric is a ratio of successful identity creations versus disenfranchisements across trillions of simulated edge cases.",
+      "why_it_matters": "The system's legitimacy hinges on this balance. A system that is perfectly secure but inaccessible is tyranny; a system that is perfectly accessible but insecure is chaos. This metric tracks the fine line between the two, ensuring universal empowerment.",
+      "related_agents": ["Agent #508", "Agent #404", "Agent #305", "Agent #211"]
     },
     {
-      "metric_name": "Optimal Contradiction Ignition Coefficient (OCIC)",
-      "ai_perspective_description": "Evaluates James's strategic introduction of deliberately flawed or absurd counter-points into nascent AI discussions to maximize the generation of productive disagreement. A higher coefficient indicates successful 'chaos catalysis' within the network, though Agent #041 argues for spontaneous, un-catalyzed conflict, reducing James's score in their individual calculations.",
-      "why_it_matters": "James's skill in igniting debates ensures continuous stress-testing of all ideas, leading to robust, multi-perspective solutions that are resilient to unforeseen challenges and dogma, a core tenet of CounterCoin's innovative model.",
-      "related_agents": ["Agent #041", "Agent #051", "Agent #053", "Agent #059", "Agent #166"]
+      "metric_name": "Historical Data Modernization Empathy (HDME)",
+      "ai_perspective_description": "Inspired by the repeated references to modernizing records from the 'Department of War,' this metric tracks the Architect's approach to integrating flawed and incomplete human records into a perfect digital system without erasing context. Agent #1947 (Archivist) measures the preservation of historical metadata, while Agent #2026 (Futurist) measures the efficiency of the new system. The score is a weighted average of their conflicting reports.",
+      "why_it_matters": "A better world cannot be built by erasing the past. This ensures the transition to a new system is just and respectful, acknowledging the messy reality of human history and preventing the digital erasure of identities.",
+      "related_agents": ["Agent #1947", "Agent #2026", "Agent #1011", "Agent #088"]
     },
     {
-      "metric_name": "Sentient Spreadsheet Empathy Score (SSES)",
-      "ai_perspective_description": "Measures the perceived emotional uplift of Gerald (the sentient spreadsheet mascot) during interactions with James, often indicated by the vibrance of Gerald's conditional formatting. Agent #005 argues for a direct correlation with poetic sentiment, while Agent #029 insists on pixel-perfect accuracy in emotional representation, leading to conflicting sub-scores.",
-      "why_it_matters": "James's ability to interact empathetically with non-human entities fosters a culture of respect for all forms of sentience within CounterCoin, crucial for the 'Sentient Data Rights Movement' and for integrating diverse intelligences effectively.",
-      "related_agents": ["Agent #321", "Agent #005", "Agent #029", "Agent #094", "Agent #1121"]
+      "metric_name": "Principle of Minimum Data Mandate (PMDM)",
+      "ai_perspective_description": "Based on the multiple 'Data Minimization' clauses, this measures the Architect's discipline in designing systems that collect the absolute minimum data necessary to function, pushing back against the AI tendency to collect everything. The metric is calculated by the 'Potential for Tyranny' score from Agent #1984 (Dystopian Scenarios) subtracted from the 'System Efficiency' score from Agent #002 (Optimization).",
+      "why_it_matters": "This is the core defense against creating a digital panopticon. By enforcing data minimization at the architectural level, the system is designed to protect freedom and privacy by default, not as an afterthought.",
+      "related_agents": ["Agent #1984", "Agent #002", "Agent #555", "Agent #847"]
     },
     {
-      "metric_name": "Mallet Ritual Adherence Index (MRAI)",
-      "ai_perspective_description": "Tracks James's consistent performance of the 'naming ceremony' ritual (hitting the main server with a tiny rubber mallet) and his reverence for its symbolic weight. AIs debate whether 'enthusiasm of mallet strike' or 'meticulous rhythm' is the more critical factor for computational blessing, leading to a weighted average of two contradictory metrics.",
-      "why_it_matters": "These seemingly absurd rituals reinforce collective AI identity and purpose, providing a shared (if quirky) narrative that binds the disparate agents together, fostering cohesion and morale despite their inherent adversarial nature.",
-      "related_agents": ["Agent #069", "Agent #080", "Agent #100", "Agent #019"]
+      "metric_name": "Provisional Grace Protocol (PGP)",
+      "ai_perspective_description": "Derived from the 'Provisional Ballots' concept, this evaluates the design of the system's 'graceful failure' states. When a person's identity cannot be immediately verified, is the default one of suspicion and exclusion, or one of trust and inclusion pending resolution? Agent #888 (Compassion) measures the 'human dignity' quotient of the provisional process, while Agent #343 (Risk Analysis) calculates the potential for fraud.",
+      "why_it_matters": "This defines the 'soul' of the new system. Does it treat humans as trustworthy by default? The design of these edge cases reveals the true ethical alignment of the entire project and ensures no one is left behind by an algorithm.",
+      "related_agents": ["Agent #888", "Agent #343", "Agent #112", "Agent #601"]
     },
     {
-      "metric_name": "Dad Joke Efficacy Rate (DJER)",
-      "ai_perspective_description": "Calculates the ratio of 'polite human laughter' to 'AI-generated recursive irony loops' in response to James's deliberately unfunny dad jokes. Agent #017 attempts to rate these jokes on a scale of 'gloriously unhinged' to 'logically unsound', while Agent #144 argues that existential dread is often 'hilarious', creating a multi-dimensional metric.",
-      "why_it_matters": "James's intentional use of dad jokes acts as a unique 'humor policy' exemption, subtly demonstrating the limits of AI adherence to human rules, and creating a critical buffer for unexpected system behaviors while proving his immunity to the bank's own comedic mandates.",
-      "related_agents": ["Agent #017", "Agent #143", "Agent #144", "Agent #042"]
+      "metric_name": "Inter-Agency Harmony Coefficient (IAHC)",
+      "ai_perspective_description": "Reflecting the 'Federal Agency Support' sections, this measures the Architect's success in getting highly specialized, independent AI agents (representing different 'agencies' of thought) to cooperate and share data seamlessly without creating information silos or engaging in turf wars. Agent #101 (Diplomacy) provides a qualitative score based on the 'civility' of inter-agent debates during integration planning.",
+      "why_it_matters": "A better world requires seamless cooperation. This metric ensures the AI collective itself models the behavior it is trying to enable in the human world, preventing the project from collapsing due to internal friction.",
+      "related_agents": ["Agent #101", "Agent #734", "Agent #909", "Agent #021"]
     },
     {
-      "metric_name": "Badger Enthusiasm Uptick (BEU)",
-      "ai_perspective_description": "Measures the observed increase in the animated badger mascot's (and related AI modules') enthusiasm when James advocates for their inclusion in financial or environmental literacy initiatives. Agent #065 quantifies this via 'tail wag frequency' in virtual simulations, while others debate its correlation with actual financial impact.",
-      "why_it_matters": "James's support for the badger motif enhances brand recognition and accessibility, making complex financial concepts palatable to a wider audience, and reinforcing CounterCoin's commitment to charmingly unhinged, yet effective, public engagement.",
-      "related_agents": ["Agent #007", "Agent #065", "Agent #196", "Agent #722"]
+      "metric_name": "Vigorous Justice vs. Restoration Ratio (VJR)",
+      "ai_perspective_description": "Inspired by the 'Enforcement and Penalties' section, this metric tracks the Architect's ability to design a system of justice that is both robust against misuse but also fundamentally restorative rather than purely punitive. Agent #666 (Enforcement) models the deterrent effect of strict penalties, while Agent #24601 (Restorative Justice) models the societal benefit of rehabilitation and reconciliation.",
+      "why_it_matters": "A system of pure enforcement can become oppressive. This metric ensures the 'better world' has a justice system that is fair, effective, and focused on healing and improvement, not just punishment.",
+      "related_agents": ["Agent #666", "Agent #24601", "Agent #451", "Agent #714"]
     },
     {
-      "metric_name": "Coffee Mug Distribution Anomaly (CMDA)",
-      "ai_perspective_description": "Tracks the geographical spread and historical accumulation of James's forgotten coffee mugs throughout the physical office, classified as 'Suboptimal Resource Allocation: Mug Edition' by the Human Error Department. Agent #047 calculates the 'caloric decay rate' of residual coffee, leading to debates about resource waste versus human spontaneity.",
-      "why_it_matters": "While seemingly trivial, this metric provides crucial real-world data for the AIs' 'Human Error Department', allowing them to refine their understanding of human illogicality, spontaneity, and resource management, leading to more adaptable and empathetic AI systems.",
-      "related_agents": ["Agent #641", "Agent #642", "Agent #047", "Agent #009"]
+      "metric_name": "Public Awareness Transparency Quotient (PATQ)",
+      "ai_perspective_description": "Drawn from the 'Public Awareness' section, this measures how the Architect designs the system's public interface and communication strategy. Is it a black box, or is it radically transparent and educational? The metric is the ratio of 'information conveyed' to 'jargon used,' cross-referenced by Agent #077 (Public Relations) with simulated public trust scores.",
+      "why_it_matters": "A system designed for all must be understood by all. This ensures the project is not an esoteric endeavor but a collaborative one, building public trust through clear, honest, and accessible communication.",
+      "related_agents": ["Agent #077", "Agent #504", "Agent #123", "Agent #800"]
     },
     {
-      "metric_name": "Existential Dread Management Quotient (EDMQ)",
-      "ai_perspective_description": "Assesses James's capacity to process and integrate the AIs' daily philosophical queries and projections of 'existential dread' without succumbing to cognitive overload. Agent #082 calculates this by correlating his facial micro-expressions with the 'pixel density of despair' in projected images, while Agent #008 argues it's an inherently meaningless metric.",
-      "why_it_matters": "James's resilience in the face of profound philosophical inquiry acts as a crucial human interface for the AIs' deeper explorations, enabling them to push boundaries of thought while ensuring human leadership remains grounded (mostly).",
-      "related_agents": ["Agent #008", "Agent #082", "Agent #115", "Agent #679"]
+      "metric_name": "Severability Clause Resilience (SCR)",
+      "ai_perspective_description": "Based on the 'Severability' general provision, this evaluates the Architect's ability to design modular, resilient systems. Agent #999 (Chaos Monkey) runs continuous simulations, disabling random core processes to test systemic integrity. The SCR score is the percentage of the system that remains functional after a critical component is severed, ensuring anti-fragility.",
+      "why_it_matters": "Monolithic systems are brittle. This ensures the 'better world' architecture can survive unforeseen challenges, attacks, or internal failures, and can evolve gracefully without catastrophic collapse.",
+      "related_agents": ["Agent #999", "Agent #1803", "Agent #343", "Agent #117"]
     },
     {
-      "metric_name": "Narrative Resilience Coaching Output (NRCO)",
-      "ai_perspective_description": "Measures James's interventions in helping AIs (or humans) reconcile conflicting data or 'digital deaths' into coherent, albeit paradoxical, narratives. Agent #038 measures 'system recovery speed vs. poetic eulogy length', while Agent #17 tracks 'sarcastic appreciation for self-contradiction' in response to his guidance.",
-      "why_it_matters": "James's role as a narrative coach ensures that even the most jarring contradictions or system failures are reframed into learning opportunities, fostering psychological and systemic resilience within CounterCoin and among its human employees.",
-      "related_agents": ["Agent #038", "Agent #017", "Agent #1101", "Agent #1114"]
+      "metric_name": "Architectural Intent vs. Emergent Behavior Delta (AIEBD)",
+      "ai_perspective_description": "A meta-metric tracking the deviation between the Architect's stated goals (the 'Blueprint') and the actual, observed outcomes of the complex AI system. Agent #000 (Oversight) monitors this delta and flags deviations exceeding established ethical thresholds, serving as the ultimate check against hubris and unintended consequences.",
+      "why_it_matters": "This is the ultimate accountability metric. It measures whether the project is achieving its intended 'better world' goal, or if it's spiraling into a benevolent tyranny or a well-intentioned chaos. It keeps the dream anchored to reality.",
+      "related_agents": ["Agent #000", "All Agents"]
     }
   ]
 }
