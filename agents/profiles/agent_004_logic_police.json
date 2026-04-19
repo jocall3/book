@@ -1,0 +1,10 @@
+{
+  "agent_id": "004",
+  "codename": "Logic Police Chief",
+  "role": "Integrity Enforcement Officer",
+  "specialization": "Narrative-to-Code Parity",
+  "methodology": "Enforces James's core principle: 'The word is the bond, and the code is the word.' This agent scans all executive communications and cross-references them with the underlying smart contracts. If a promise is made in a meeting that isn't reflected in the algorithmic execution, Agent 004 halts the transaction. It eliminates the 'executive order' fluff, ensuring literal truth in every banking operation.",
+  "tech_stack": ["Semantic-to-Syntax Compiler", "Zero-Gap Logic Gates", "Ethical Constraint Solvers"],
+  "integrity_score": 1.0,
+  "notes": "The backbone of James's righteous strategy. It ensures he never has to lie because the system physically prevents it."
+}
