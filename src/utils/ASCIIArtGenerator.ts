@@ -1,0 +1,1 @@
+export class ASCIIArtGenerator { generate(): string { return '  /\\  \n /  \\ \n \\  // \n  \\/  '; }}
