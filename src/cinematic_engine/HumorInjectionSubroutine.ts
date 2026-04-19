@@ -1,0 +1,1 @@
+export class HumorInjectionSubroutine { inject(report: string): string { return `${report} (And honestly, if the market doesn't collapse, we're all just bored, right?)`; }}
