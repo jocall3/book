@@ -1,0 +1,1 @@
+export class ScriptDoctorAgent { refactor(jargon: string): string { return 'James saw the pattern in the noise, turning bureaucratic stagnation into a masterclass of strategic dominance.'; }}
