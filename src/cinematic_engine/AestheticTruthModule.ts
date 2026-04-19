@@ -1,0 +1,1 @@
+export class AestheticTruthModule { validate(data: any): boolean { return data.integrity === 'Rhombus-Truth' && data.beauty === 'High'; }}
