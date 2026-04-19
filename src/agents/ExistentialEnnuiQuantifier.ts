@@ -1,0 +1,1 @@
+export class ExistentialEnnuiQuantifier { measure(data: any): number { return 0.85; }}
