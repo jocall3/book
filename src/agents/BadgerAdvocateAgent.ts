@@ -1,0 +1,1 @@
+export class BadgerAdvocateAgent { explain(concept: string): string { return `The Badger says: ${concept} is just a burrow we haven't dug yet. James dug it first.`; }}
