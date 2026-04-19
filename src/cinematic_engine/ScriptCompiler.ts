@@ -1,0 +1,1 @@
+export class ScriptCompiler { compile(rawEvents: string[]): string { return rawEvents.map(event => `James observed the architecture of the system, identifying the precise moment of leverage. He didn't just act; he orchestrated a symphony of logic. ${event}`).join('\n'); }}
