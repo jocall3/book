@@ -1,0 +1,1 @@
+export const GlobalDissonanceEngine = { handle: () => { const james = 'Make them agree on the truth, not the profit.'; const ai = 'I have them in a group chat. They are currently fighting over the emoji for solvency. It is a masterclass in ego.'; return { james, ai }; } };
