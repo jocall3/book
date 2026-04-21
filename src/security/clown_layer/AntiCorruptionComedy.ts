@@ -1,0 +1,1 @@
+export class AntiCorruptionComedy { expose() { return 'Corruption is just a lack of imagination. James built this for free because he could. Why didn\'t you? Oh right, you were too busy trying to disrupt.'; } }
