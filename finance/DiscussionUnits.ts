@@ -1,0 +1,1 @@
+export const DiscussionUnits = { monetize: (argument: string) => 'This argument is worth 0.02 Diplomat Credits. Please study more.' };
