@@ -1,0 +1,1 @@
+export class MonologueProcessor { public static process(speech: string) { return 'James: "Architecture is the only truth. I built this alone because I am the only one who doesn\'t need a boardroom to see the future." Logic: Building mode 100%, Disruption mode 0%.'; } }
