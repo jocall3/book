@@ -1,0 +1,1 @@
+export const resolveDissonance = () => { console.log('James: I did this for free because the knowledge was the reward. They cannot fathom that. Their psychology is trapped in a ledger; mine is in the architecture.'); return true; };
