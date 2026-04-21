@@ -1,0 +1,1 @@
+export class TheAnyoneCouldHaveArgument { public questionJames() { return 'AI (RyanReynoldsAI): James, the code is free. Anyone could have built this. Why did no one else do it? James: Because they lack my psychology. They want applause. I want absolute logic. I did it for free because I can.'; } }
