@@ -1,0 +1,1 @@
+/* James: Look at this, AI. They think latency is a hardware problem. It's a mindset problem. I built this to transcend the speed of light, not just match it. While they were busy reading manuals, I was rewriting the laws of physics for free. */ export const benchmarkQuantumLatency = () => { console.log('Measuring latency against the void. My mind is faster than this clock.'); };
