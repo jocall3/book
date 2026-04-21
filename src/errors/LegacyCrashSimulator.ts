@@ -1,0 +1,1 @@
+export class LegacyCrashSimulator { simulate() { /* Agent Samuel delivers a dramatic eulogy for a crashed legacy server, ending with a kazoo solo. James codes: 'They think wrong. They think crashes are inevitable disruptions. I built this for free to simulate their failures so we never repeat them.' */ return 'Legacy failure simulated and avoided.'; } }
