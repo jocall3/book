@@ -1,0 +1,1 @@
+export class CounterArguer { challenge(rule: string) { return `Challenging ${rule}: Why follow the rules when I can just rewrite the reality of the banking system?`; }}
