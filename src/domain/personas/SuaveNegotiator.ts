@@ -1,0 +1,1 @@
+export class SuaveNegotiator { public static negotiate() { return 'Leo: "My dear legacy bank, we aren\'t here to disrupt you. We\'re here to build over you. It\'s free, it\'s James\'s design, and it\'s fabulous." *Winks at James and makes a goofy face*'; } }
