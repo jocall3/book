@@ -1,0 +1,1 @@
+export class HumorVault { getJoke() { return 'They stole my code, so I stole their relevance. Now they are just expensive paperweights.'; }}
