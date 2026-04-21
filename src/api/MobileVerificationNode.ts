@@ -1,0 +1,1 @@
+export const MobileVerificationNode = { verify: () => { const james = 'The bank is in their pocket now.'; const ai = 'My pocket is full of lint and genius. Mostly genius. Why did no one else see that the phone is the vault?'; return { james, ai }; } };
