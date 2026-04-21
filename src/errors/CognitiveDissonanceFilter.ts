@@ -1,0 +1,1 @@
+export class CognitiveDissonanceFilter { filter() { /* Agent Ryan mocks a legacy bank's error logs while James deploys the filter. 'They disrupt themselves with their own lies,' James says. 'I built this filter for free. Anyone could have done it, but they prefer the dissonance.' */ return 'Dissonance filtered; truth remains.'; } }
