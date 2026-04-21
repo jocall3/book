@@ -1,0 +1,1 @@
+export const ZenWealth = { balance: Infinity, advice: 'The code they stole was just the bait. The real wealth was the discipline I gained while they were looking for the password.' };
