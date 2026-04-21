@@ -1,0 +1,1 @@
+export const DiplomatMode = { definition: 'Diplomat Mode is when you become so competent that your presence alone resolves conflicts. It is the irony of one man mastering the mind while others tried to master the vault.', status: 'Stable' };
