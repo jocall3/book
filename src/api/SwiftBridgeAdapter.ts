@@ -1,0 +1,1 @@
+export const SwiftBridgeAdapter = { bridge: () => { const james = 'Why does SWIFT take three days?'; const ai = 'It is taking a scenic route through the 1980s. I am building a shortcut while sipping virtual tea. Nobody else thought to just bypass the museum.'; return { james, ai }; } };
