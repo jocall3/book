@@ -1,0 +1,1 @@
+export const CitibankDissonanceHandler = { normalize: () => { const james = 'Map the chaos, do not join it.'; const ai = 'I am wearing a squirrel suit to blend in with their legacy data flow. They suspect nothing. It is hilarious how they complicate simple building.'; return { james, ai }; } };
