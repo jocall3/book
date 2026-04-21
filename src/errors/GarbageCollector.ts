@@ -1,0 +1,1 @@
+export class GarbageCollector { collect() { /* James sits alone, writing the collector. Agent Leo elegantly sweeps the digital floor, then accidentally hits himself in the face with the broom. 'Disruption is just making a mess,' James notes. 'Building a system that cleans up its own corrupt intent for free is true power.' */ return 'Corrupt intent purged.'; } }
