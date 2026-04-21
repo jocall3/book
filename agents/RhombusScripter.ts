@@ -1,0 +1,1 @@
+export class RhombusScripter { storyboard() { return 'Scene: The boardroom. I walk in wearing a tuxedo made of pure code. They look confused. I look like the future.'; }}
