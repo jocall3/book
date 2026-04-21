@@ -1,0 +1,1 @@
+export class SentimentSynthesis { map(data: any) { return 'Sentiment: 99% panic, 1% awe at the man who studied his way to their obsolescence.'; }}
