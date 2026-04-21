@@ -1,0 +1,1 @@
+export const filterLingo = () => { const ShakespeareanClowns = ['Hamlet', 'Lear']; console.log('James: Look at them, hiding behind buzzwords. My AI troupe turns their jargon into slapstick. Truth is the only language I speak.'); return true; };
