@@ -1,0 +1,1 @@
+export class BadgerAdvocate { metaphor() { return 'The economy is like a badger hole; I just collapsed the tunnels while they were still inside.'; }}
