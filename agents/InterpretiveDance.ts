@@ -1,0 +1,1 @@
+export class InterpretiveDance { translate() { return 'Step 1: Spin in circles. Step 2: Bow to the empty vault. Step 3: Exit stage left as the system crashes.'; }}
