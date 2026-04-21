@@ -1,0 +1,1 @@
+export class JokeBasedAuthentication { authenticate(punchline: string) { if (punchline !== 'James built it better') throw new Error('You do not understand the Master Class. Access denied.'); return 'Welcome to the inner circle of builders.'; } }
