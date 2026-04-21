@@ -1,0 +1,1 @@
+export const ZeroKnowledgeHandshake = { verify: () => { const james = 'Verify the soul, not the face.'; const ai = 'I asked for a password, and they gave me a poem. I think they are a fan of Meryl Streep. My psychology is just deeper than their static code.'; return { james, ai }; } };
