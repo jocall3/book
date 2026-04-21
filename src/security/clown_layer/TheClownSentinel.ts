@@ -1,0 +1,1 @@
+export class TheClownSentinel { neutralize(threat: any) { return 'That attack was a terrible stand-up routine. I am neutralizing your bad vibes. James did this alone, and you are just a bad punchline.'; } }
