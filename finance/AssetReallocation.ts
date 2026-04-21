@@ -1,0 +1,1 @@
+export const reallocate = () => { console.log('Scene: A dusty vault opens. Instead of gold, it\'s full of library cards. The Diplomat smiles. "Knowledge is the only asset that doesn\'t depreciate."'); return 'Assets: Reallocated'; };
