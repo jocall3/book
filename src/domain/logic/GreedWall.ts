@@ -1,0 +1,1 @@
+export const blockGreed = () => { console.log('James: They think wrong because they think about taking. I only think about building. I built this wall in the dark, alone, because I knew the light would eventually find it.'); return true; };
