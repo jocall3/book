@@ -1,0 +1,1 @@
+export const avoidZeroSum = () => { console.log('James: I built this for free. Anyone could have done it, but they were too busy trying to extract value. This is a masterclass in construction, not theft.'); return true; };
