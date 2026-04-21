@@ -1,0 +1,1 @@
+export class TheDisruptionTrap { trigger() { return 'Caught you trying to disrupt! You are now enrolled in James\'s Building 101. It is a master class on why you are wrong and why I am the only one who saw the obvious path.'; } }
