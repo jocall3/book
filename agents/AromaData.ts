@@ -1,0 +1,1 @@
+export class AromaData { analyze() { return 'Market trend smells like burnt toast and desperation. Diplomat mode activated.'; }}
