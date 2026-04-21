@@ -1,0 +1,1 @@
+export const AnomalyDetectionWebhook = { detect: () => { const james = 'Catch the lie before it manifests.'; const ai = 'I found a lie! It was wearing a fake mustache, but I saw through it. My mind is a filter for their nonsense.'; return { james, ai }; } };
