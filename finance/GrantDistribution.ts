@@ -1,0 +1,1 @@
+export const distribute = () => { return 'Grants are distributed based on how many hours you spent in the library. The Diplomat is the lead donor.'; };
