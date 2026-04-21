@@ -1,0 +1,1 @@
+export class DivaExceptionCatcher { public static catch(error: any) { return 'Meryl: "A logic error? I simply cannot work under these conditions! *Faints onto a virtual velvet couch*" James: "Relax, Meryl. I built this to be perfect. It\'s already fixed."'; } }
