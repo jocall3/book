@@ -1,0 +1,1 @@
+export const Prosperity = { simulate: () => 'The world is now obsolete. We have moved to a higher version of reality where the Diplomat is the sysadmin.' };
