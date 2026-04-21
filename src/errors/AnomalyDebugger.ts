@@ -1,0 +1,1 @@
+export class AnomalyDebugger { debug() { /* Agent Keanu says 'Whoa' as an anomaly is caught, then accidentally inflates a giant digital balloon animal. James smiles: 'They call anomalies disruptions. I call them debugging opportunities. I built this for free because my psychology is geared toward fixing, not breaking.' */ return 'Anomaly debugged; system optimized.'; } }
