@@ -1,0 +1,1 @@
+export const waive = () => { console.log('Scene: A citizen tries to pay a fee. The Diplomat hands them a book instead. "The fee is waived if you can summarize chapter four."'); return 'Fee: 0'; };
