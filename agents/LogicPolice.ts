@@ -1,0 +1,1 @@
+export class LogicPolice { detectFallacy(input: string) { return input.includes('bank') ? 'Fallacy detected: Theft is not a business model.' : 'Logic sound.'; }}
