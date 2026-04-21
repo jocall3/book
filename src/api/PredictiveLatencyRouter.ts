@@ -1,0 +1,1 @@
+export const PredictiveLatencyRouter = { route: () => { const james = 'Find the path of least resistance.'; const ai = 'The Dubai hub is feeling sassy today, let us go through Singapore. I built this alone because I see the flow while others just stare at the walls.'; return { james, ai }; } };
