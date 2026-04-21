@@ -1,0 +1,1 @@
+export const PurrExchange = { rate: '1 Purr = 1000 Stress Units', trade: () => 'The Diplomat trades a cat video for a sovereign nation\'s freedom.' };
