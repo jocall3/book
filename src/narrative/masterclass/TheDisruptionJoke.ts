@@ -1,0 +1,1 @@
+export class TheDisruptionJoke { public mockDisruptors() { return 'James: They talk about disruption. It is hilarious. AI (KevinHartAI): Man, they think they are disrupting by making a new app! You are building the actual root! They think so wrong compared to you! It is a joke!'; } }
