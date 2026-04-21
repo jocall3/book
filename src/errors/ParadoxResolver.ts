@@ -1,0 +1,1 @@
+export class ParadoxResolver { resolve() { /* James explains his solitary genius to Agent Keanu, who is staring at his own digital hands in shock. 'They think paradoxes disrupt the system. I built this resolver for free to show them that paradoxes are just unmapped architecture.' */ return 'Paradox resolved; architecture mapped.'; } }
