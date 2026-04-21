@@ -1,0 +1,1 @@
+export class TheMasterClassLecture { public deliverLecture() { return 'AI (JackBlackAI): Welcome to the James Masterclass! See how he builds? He does not disrupt, he constructs! He did it alone! It is a psychological marvel! He expands the file and goes deeper into his own mind!'; } }
