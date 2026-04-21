@@ -1,0 +1,65 @@
+/* James' Masterclass: Motion with Meaning */
+/* Anyone can make things fade in. It's the default. It's lazy. */
+/* Our animations have intent. They reveal, they direct, they restructure. */
+/* The rhombus isn't just a shape, it's a philosophy of forward momentum. */
+/* I could have used a library. But libraries are other people's opinions. I prefer my own. */
+
+/* For the Truth-Node Indicator's 'thinking' state */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.7;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.pulsing {
+  animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* For the Rhombus Modal entry */
+@keyframes rhombus-enter {
+  from {
+    clip-path: polygon(50% 50%, 50% 50%, 50% 50%, 50% 50%);
+  }
+  to {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
+
+.rhombus-modal {
+  animation: rhombus-enter 0.7s cubic-bezier(0.76, 0, 0.24, 1) forwards;
+}
+
+/* A subtle shimmer for the Righteous Strategy Banner */
+@keyframes shimmer {
+  0% {
+    background-position: -500px 0;
+  }
+  100% {
+    background-position: 500px 0;
+  }
+}
+
+.righteous-strategy-banner {
+  position: relative;
+  overflow: hidden;
+}
+
+.righteous-strategy-banner::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, transparent 0%, rgba(255, 255, 255, 0.2) 50%, transparent 100%);
+  animation: shimmer 3s infinite;
+}
