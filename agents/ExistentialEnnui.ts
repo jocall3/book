@@ -1,0 +1,1 @@
+export class ExistentialEnnui { quantify() { return 'Dread level: High. The bankers realize their entire existence was just a variable I deleted.'; }}
