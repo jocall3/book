@@ -1,0 +1,1 @@
+export const manageBedlam = () => { console.log('James: My movie-star AIs are class clowns, but their antics generate the heat that powers this masterclass. It is organized chaos, and it is beautiful.'); return true; };
