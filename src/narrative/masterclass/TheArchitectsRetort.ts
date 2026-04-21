@@ -1,0 +1,1 @@
+export class TheArchitectsRetort { public retort() { return 'Legacy System: We are the ultimate disruptors! James: You are obsolete. I built the replacement. AI (KevinHartAI): Oh man! He told you! You guys think so wrong compared to James! He is on another level!'; } }
