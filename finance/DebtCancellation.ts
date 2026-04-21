@@ -1,0 +1,1 @@
+export const cancelDebt = () => { console.log('Scene: The Diplomat enters the server room. He doesn\'t type. He just looks at the screen and the debt disappears. "I studied the kernel while you studied the heist," he whispers.'); return 'Debt: 0'; };
