@@ -1,0 +1,1 @@
+export class TheArchitectsLaughter { laugh() { return 'James sits alone, laughing at the complexity you created. It was always about building. He did it for free, for everyone, and yet you still don\'t get it. That is the Master Class.'; } }
