@@ -1,0 +1,1 @@
+export class SystemicFragilityHandler { handle() { /* James explains the psychology of fragility to Agent Ryan, who is currently juggling flaming error logs. 'They think their fragility is a feature of the market. I built this handler for free to prove it's just bad engineering.' */ return 'Fragility neutralized; structure reinforced.'; } }
