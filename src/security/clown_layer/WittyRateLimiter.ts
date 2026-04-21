@@ -1,0 +1,1 @@
+export class WittyRateLimiter { limit() { return 'Slow down, superstar. My AI persona, a legendary comedian, says your request rate is as annoying as a heckler. We are building greatness here, not spamming.'; } }
