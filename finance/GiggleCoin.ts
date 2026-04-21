@@ -1,0 +1,1 @@
+export const GiggleCoin = { description: 'A currency backed by the irony of those who thought they could steal a mind.', mint: () => 'One LOL minted.' };
