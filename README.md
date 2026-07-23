@@ -71,7 +71,7 @@ He zoomed in on the hologram. A massive, throbbing red artery in the center of t
 
 "Synthetic debt?" Bicker stammered, squinting at the hologram. "That's... that's just market volatility. The Federal Reserve assured us—"
 
-"The Federal Reserve is running on software written during the Carter administration, Senator," James scoffed. "You’ve got dead voters drawing pensions, non-citizens registering at the DMV through automated script-bots, and shell corporations using synthetic social security numbers to pull down small business loans. Your 'Congressional Findings' are a four-hundred-page suicide note written in legalese. You’re arguing over who gets to steer the ship while the hull is seventy percent rust."
+"The Federal Reserve is running on software written during the Carter administration, Senator," James scoffed. "You’ve got dead voters drawing pensions, non-citizens registering at the DMV through automated script-bots, and shell corporations using synthetic social security numbers to pull down small business loans. Your 'Congressional Findings' are a four-hundred-page comicbook written in legalese. You’re arguing over who gets to steer the ship while the hull is seventy percent rust."
 
 Stall leaned forward, the blue light reflecting off his sweaty forehead. "And what is this... this map? What are we looking at?"
 
